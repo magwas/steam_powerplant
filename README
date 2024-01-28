@@ -1,8 +1,9 @@
-An Open Hardware RISC-V based rugged, watercooled laptop in steampunk design.
+An Open Hardware RISC-V based rugged, watercooled laptop with steampunk design.
 
 Design Goals:
 
 - based on the HiFive Unmatched Rev B board, because it is RISC-V
+- actually useable
 - waterproof
 - shock proof
 - long battery life
