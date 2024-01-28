@@ -1,0 +1,16 @@
+"Source:","/home/mag/Private/laptop/DCDC/DCDC.kicad_sch"
+"Date:","Thu 25 Jan 2024 02:42:00 PM CET"
+"Tool:","Eeschema 7.0.10+1"
+"Generator:","/usr/share/kicad/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","21"
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","DNP","Sim.Device","Sim.Params","Sim.Pins","Sim.Type","part"
+"1","4","C1, C3, C4, C6","1000 uF","Device:C_Polarized","Capacitor_THT:CP_Radial_D10.0mm_P5.00mm","https://lomex.hu/pdf/(tea)_tc.pdf","","","","","","KTC108M025S1G6H20K"
+"2","4","C2, C5, C7, C8","100 uF","Device:C_Polarized","Capacitor_THT:CP_Radial_D10.0mm_P5.00mm","https://lomex.hu/pdf/(tea)_tc.pdf","","","","","","KTC108M025S1G6H20K"
+"3","4","D1, D2, D3, D4","1N5822","Diode:1N5822","Diode_THT:D_DO-201AD_P15.24mm_Horizontal","http://www.vishay.com/docs/88526/1n5820.pdf","","","","","",""
+"4","1","F3","30R600","Device:Polyfuse","Library:CAPRB1000W55L1500T500H1900","https://lomex.hu/pdf/(lfs)_30r.pdf","","","","","",""
+"5","3","IN+1, IN-1, OUT12","Conn_01x01","Connector_Generic:Conn_01x01","TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm","~","","V","dc=18","1=+","DC",""
+"6","1","L1","25 uH","Device:L","Inductor_THT:L_Toroid_Horizontal_D12.7mm_P20.00mm_Diameter14-5mm_Amidon-T50","https://lomex.hu/pdf/vik/(vik)_pd_series.pdf","","","","","","PD5022T101"
+"7","4","U1, U2, U3, U4","LM2576T-12","Regulator_Switching:LM2576T-5","Package_TO_SOT_THT:TO-220-5_Horizontal_TabUp","http://www.ti.com/lit/ds/symlink/lm2576.pdf","","","","","",""

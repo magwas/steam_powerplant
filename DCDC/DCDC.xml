@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/mag/Private/laptop/DCDC/DCDC.kicad_sch</source>
+    <date>Thu 25 Jan 2024 02:42:00 PM CET</date>
+    <tool>Eeschema 7.0.10+1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>DCDC.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1000 uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>https://lomex.hu/pdf/(tea)_tc.pdf</datasheet>
+      <fields>
+        <field name="part">KTC108M025S1G6H20K</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="part" value="KTC108M025S1G6H20K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0166cbb7-8ee7-45a3-9058-418cb466f904</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100 uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>https://lomex.hu/pdf/(tea)_tc.pdf</datasheet>
+      <fields>
+        <field name="part">KTC108M025S1G6H20K</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="part" value="KTC108M025S1G6H20K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>294643b0-41ad-44b0-b49c-30101cb2a552</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1000 uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>https://lomex.hu/pdf/(tea)_tc.pdf</datasheet>
+      <fields>
+        <field name="part">KTC108M025S1G6H20K</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="part" value="KTC108M025S1G6H20K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ddec9a8-219a-40f7-99ea-c647e39cdb89</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1000 uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>https://lomex.hu/pdf/(tea)_tc.pdf</datasheet>
+      <fields>
+        <field name="part">KTC108M025S1G6H20K</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="part" value="KTC108M025S1G6H20K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>726ca3db-7563-4c8a-ab0d-4dd8e119ad9f</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100 uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>https://lomex.hu/pdf/(tea)_tc.pdf</datasheet>
+      <fields>
+        <field name="part">KTC108M025S1G6H20K</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="part" value="KTC108M025S1G6H20K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb96817f-a591-449a-acbb-51140b4d08a6</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>1000 uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>https://lomex.hu/pdf/(tea)_tc.pdf</datasheet>
+      <fields>
+        <field name="part">KTC108M025S1G6H20K</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="part" value="KTC108M025S1G6H20K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b22c59c1-9f02-4570-a334-6f5defd09083</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100 uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>https://lomex.hu/pdf/(tea)_tc.pdf</datasheet>
+      <fields>
+        <field name="part">KTC108M025S1G6H20K</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="part" value="KTC108M025S1G6H20K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e688a35-232a-4215-8dc3-72e2b81107b6</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100 uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>https://lomex.hu/pdf/(tea)_tc.pdf</datasheet>
+      <fields>
+        <field name="part">KTC108M025S1G6H20K</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="part" value="KTC108M025S1G6H20K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba7bc825-ff5c-449c-ba9f-9b73951192d5</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N5822</value>
+      <footprint>Diode_THT:D_DO-201AD_P15.24mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88526/1n5820.pdf</datasheet>
+      <libsource lib="Diode" part="1N5822" description="40V 3A Schottky Barrier Rectifier Diode, DO-201AD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <property name="ki_description" value="40V 3A Schottky Barrier Rectifier Diode, DO-201AD"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b173ce3b-8ce7-40a0-9326-de6fdd9f8f68</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N5822</value>
+      <footprint>Diode_THT:D_DO-201AD_P15.24mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88526/1n5820.pdf</datasheet>
+      <libsource lib="Diode" part="1N5822" description="40V 3A Schottky Barrier Rectifier Diode, DO-201AD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <property name="ki_description" value="40V 3A Schottky Barrier Rectifier Diode, DO-201AD"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>593bf8ee-6355-40bf-b0a2-1c092ee53fd7</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N5822</value>
+      <footprint>Diode_THT:D_DO-201AD_P15.24mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88526/1n5820.pdf</datasheet>
+      <libsource lib="Diode" part="1N5822" description="40V 3A Schottky Barrier Rectifier Diode, DO-201AD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <property name="ki_description" value="40V 3A Schottky Barrier Rectifier Diode, DO-201AD"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ec398f9-fb07-4853-8a81-932022b77b68</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N5822</value>
+      <footprint>Diode_THT:D_DO-201AD_P15.24mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88526/1n5820.pdf</datasheet>
+      <libsource lib="Diode" part="1N5822" description="40V 3A Schottky Barrier Rectifier Diode, DO-201AD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <property name="ki_description" value="40V 3A Schottky Barrier Rectifier Diode, DO-201AD"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>caa63068-2194-4b83-93b7-8d012e63ab57</tstamps>
+    </comp>
+    <comp ref="F3">
+      <value>30R600</value>
+      <footprint>Library:CAPRB1000W55L1500T500H1900</footprint>
+      <datasheet>https://lomex.hu/pdf/(lfs)_30r.pdf</datasheet>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a352855-b2fe-44ac-9d28-f78cba47339b</tstamps>
+    </comp>
+    <comp ref="IN+1">
+      <value>Conn_01x01</value>
+      <footprint>TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm</footprint>
+      <fields>
+        <field name="Sim.Device">V</field>
+        <field name="Sim.Params">dc=18</field>
+        <field name="Sim.Pins">1=+</field>
+        <field name="Sim.Type">DC</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sim.Device" value="V"/>
+      <property name="Sim.Type" value="DC"/>
+      <property name="Sim.Pins" value="1=+"/>
+      <property name="Sim.Params" value="dc=18"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>447d8024-8f53-4fa2-8f8d-9394fee864b2</tstamps>
+    </comp>
+    <comp ref="IN-1">
+      <value>Conn_01x01</value>
+      <footprint>TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm</footprint>
+      <fields>
+        <field name="Sim.Device">V</field>
+        <field name="Sim.Params">dc=0</field>
+        <field name="Sim.Pins">1=+</field>
+        <field name="Sim.Type">DC</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sim.Device" value="V"/>
+      <property name="Sim.Type" value="DC"/>
+      <property name="Sim.Pins" value="1=+"/>
+      <property name="Sim.Params" value="dc=0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>167c9d09-5665-4c3e-aee5-7a3ee7d5e5a9</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>25 uH</value>
+      <footprint>Inductor_THT:L_Toroid_Horizontal_D12.7mm_P20.00mm_Diameter14-5mm_Amidon-T50</footprint>
+      <datasheet>https://lomex.hu/pdf/vik/(vik)_pd_series.pdf</datasheet>
+      <fields>
+        <field name="part">PD5022T101</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="part" value="PD5022T101"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea2023d0-d9b9-44dc-b9f4-e1d0f9223c39</tstamps>
+    </comp>
+    <comp ref="OUT12">
+      <value>Conn_01x01</value>
+      <footprint>TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>041a729b-abaf-4ba5-8d8e-d06e3e6ee26f</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LM2576T-12</value>
+      <footprint>Package_TO_SOT_THT:TO-220-5_Horizontal_TabUp</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2576.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="LM2576T-5" description="5V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-220-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <property name="ki_description" value="5V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-220-5"/>
+      <property name="ki_keywords" value="Step-Down Voltage Regulator 5V 3A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8808c3e-fd11-42ed-9033-3a51ba340978</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LM2576T-12</value>
+      <footprint>Package_TO_SOT_THT:TO-220-5_Horizontal_TabUp</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2576.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="LM2576T-5" description="5V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-220-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <property name="ki_description" value="5V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-220-5"/>
+      <property name="ki_keywords" value="Step-Down Voltage Regulator 5V 3A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07e08633-c6b6-487c-beb3-23a4aeec5e3b</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>LM2576T-12</value>
+      <footprint>Package_TO_SOT_THT:TO-220-5_Horizontal_TabUp</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2576.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="LM2576T-5" description="5V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-220-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <property name="ki_description" value="5V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-220-5"/>
+      <property name="ki_keywords" value="Step-Down Voltage Regulator 5V 3A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2cc8530-5ee5-45ce-9be1-ced342ee880b</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>LM2576T-12</value>
+      <footprint>Package_TO_SOT_THT:TO-220-5_Horizontal_TabUp</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2576.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="LM2576T-5" description="5V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-220-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DCDC.kicad_sch"/>
+      <property name="ki_description" value="5V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-220-5"/>
+      <property name="ki_keywords" value="Step-Down Voltage Regulator 5V 3A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66006332-84e4-4492-a0f0-6611fd16cada</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N5822">
+      <description>40V 3A Schottky Barrier Rectifier Diode, DO-201AD</description>
+      <docs>http://www.vishay.com/docs/88526/1n5820.pdf</docs>
+      <footprints>
+        <fp>D*DO?201AD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5822</field>
+        <field name="Footprint">Diode_THT:D_DO-201AD_P15.24mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88526/1n5820.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="LM2576T-5">
+      <description>5V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-220-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2576.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2576T-5</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-5_Vertical</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm2576.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="OUT" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="FB" type="input"/>
+        <pin num="5" name="~{ON}/OFF" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>/usr/share/kicad/symbols//Regulator_Switching.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="IN-1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="~{ON}/OFF" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="~{ON}/OFF" pintype="input"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="~{ON}/OFF" pintype="input"/>
+      <node ref="U4" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="5" pinfunction="~{ON}/OFF" pintype="input"/>
+    </net>
+    <net code="2" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="OUT" pintype="output"/>
+      <node ref="U2" pin="2" pinfunction="OUT" pintype="output"/>
+      <node ref="U3" pin="2" pinfunction="OUT" pintype="output"/>
+      <node ref="U4" pin="2" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="3" name="Net-(IN+1-Pin_1)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="IN+1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="4" name="Net-(OUT12-Pin_1)">
+      <node ref="F3" pin="1" pintype="passive"/>
+      <node ref="OUT12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(U1-FB)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="F3" pin="2" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="FB" pintype="input"/>
+      <node ref="U2" pin="4" pinfunction="FB" pintype="input"/>
+      <node ref="U3" pin="4" pinfunction="FB" pintype="input"/>
+      <node ref="U4" pin="4" pinfunction="FB" pintype="input"/>
+    </net>
+  </nets>
+</export>

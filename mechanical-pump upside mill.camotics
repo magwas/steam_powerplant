@@ -1,0 +1,25 @@
+{
+      "units": "metric",
+      "resolution-mode": "manual",
+      "resolution": 0.175,
+      "tools": {
+        "1": {
+          "units": "metric",
+          "shape": "ballnose",
+          "length": 10.25,
+          "diameter": 2.5,
+          "description": ""
+        }
+      },
+      "workpiece": {
+        "automatic": false,
+        "margin": 5,
+        "bounds": {
+          "min": [-3, -3, -3],
+          "max": [122, 18, 0]
+        }
+      },
+      "files": [
+        "mechanical-pump upside mill.gcode"
+      ]
+    }
