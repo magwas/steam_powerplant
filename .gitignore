@@ -12,3 +12,6 @@
 *.bmp
 *.avif
 *.dxf
+~*.lck
+DCDC/dcdc3-backups/
+DCDC/_autosave-dcdc3.kicad_sch
