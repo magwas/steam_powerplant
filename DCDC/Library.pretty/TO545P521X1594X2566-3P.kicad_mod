@@ -42,8 +42,8 @@
   (pad "1" thru_hole rect (at 0 0) (size 2.715 2.715) (drill 1.81) (layers "*.Cu" "*.Mask") (tstamp f89d9da8-89ff-4c94-95c7-4e6f3ce2395e))
   (pad "2" thru_hole circle (at 5.45 0) (size 2.715 2.715) (drill 1.81) (layers "*.Cu" "*.Mask") (tstamp f38783af-6c21-4faa-bf78-aa687958341b))
   (pad "3" thru_hole circle (at 10.9 0) (size 2.715 2.715) (drill 1.81) (layers "*.Cu" "*.Mask") (tstamp e6e0a3d1-bd68-44ef-95b2-7f36a8124c78))
-  (model "IXFX360N10T.stp"
-    (offset (xyz 0 0 0))
+  (model "${KIPRJMOD}/Library.pretty/IXFX360N10T.stp"
+    (offset (xyz 0.5 0 11))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
