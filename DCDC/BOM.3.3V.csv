@@ -1,0 +1,26 @@
+﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
+Ccomp3,TDK,CGA2B2X7R1H331K050BA,1,0.01,3,Cap: 330 pF  Total Derated Cap: 330 pF  VDC: 50 V  ESR: 6.53 Ω  Package: 0402  
+Cilim,MuRata,GQM2195C2A5R1CB01D,1,0.15,6.75,Cap: 5.1 pF  Total Derated Cap: 5.1 pF  VDC: 100 V  ESR: 1 mΩ  Package: 0805  
+Css,MuRata,GRM155R71C563KA88D,1,0.01,3,Cap: 56 nF  Total Derated Cap: 56 nF  VDC: 16 V  ESR: 1 mΩ  Package: 0402  
+Cin,MuRata,GRM32ER71H475KA88L,1,0.16,14.7,Cap: 4.7 µF  Total Derated Cap: 3.3 µF  VDC: 50 V  ESR: 1 mΩ  Package: 1210  
+Ruv1,Yageo,RC0201FR-7D68K1L,1,0.01,2.08,Resistance: 68.1 kΩ  Tolerance: 1.0%  Power: 50 mW  
+Ccomp2,MuRata,GRM155R71C102KA01D,1,0.01,3,Cap: 1 nF  Total Derated Cap: 1 nF  VDC: 16 V  ESR: 1 mΩ  Package: 0402  
+Ccomp1,MuRata,GRM155R71C822KA01D,1,0.01,3,Cap: 8.2 nF  Total Derated Cap: 8.2 nF  VDC: 16 V  ESR: 1 mΩ  Package: 0402  
+Rt,Vishay-Dale,CRCW040239K2FKED,1,0.01,3,Resistance: 39.2 kΩ  Tolerance: 1.0%  Power: 63 mW  
+M1,Texas Instruments,CSD17579Q3A,1,0.12,18.49,VdsMax: 30 V  IdsMax: 20 Amps  
+Rfbb,Vishay-Dale,CRCW04025K76FKED,1,0.01,3,Resistance: 5.76 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Rcomp2,Vishay-Dale,CRCW0402237RFKED,1,0.01,3,Resistance: 237 Ω  Tolerance: 1.0%  Power: 63 mW  
+Cbst,MuRata,GRM188R61E104KA01D,1,0.01,4.68,Cap: 100 nF  Total Derated Cap: 67 nF  VDC: 25 V  ESR: 30 mΩ  Package: 0603  
+Rfbt,Yageo,RC0603FR-0718KL,1,0.01,4.68,Resistance: 18 kΩ  Tolerance: 1.0%  Power: 100 mW  
+Rvin,Vishay-Dale,CRCW06032R10FKEA,1,0.01,4.68,Resistance: 2.1 Ω  Tolerance: 1.0%  Power: 100 mW  
+Cvin,TDK,CGA3E2X7R1H104K080AA,1,0.01,4.68,Cap: 100 nF  Total Derated Cap: 82 nF  VDC: 50 V  ESR: 29.6 mΩ  Package: 0603  
+Rpgood,Yageo,RC0603FR-0720KL,1,0.01,4.68,Resistance: 20 kΩ  Tolerance: 1.0%  Power: 100 mW  
+U1,Texas Instruments,LM5145RGYR,1,1.318,24.75,
+Cvcc,TDK,C1005X5R1V225K050BC,1,0.06,3,Cap: 2.2 µF  Total Derated Cap: 93 nF  VDC: 35 V  ESR: 1 mΩ  Package: 0402  
+M2,Texas Instruments,CSD17577Q3A,1,0.15,18.49,VdsMax: 30 V  IdsMax: 35 Amps  
+L1,Bourns,SRP1270-2R2M,1,0.83,246.49,L: 2.2 µH  DCR: 4.2 mΩ  IDC: 22 A  
+Cout,Kemet,C1210C106K8PACTU,2,0.22,14.7,Cap: 10 µF  Total Derated Cap: 20 µF  VDC: 10 V  ESR: 8 mΩ  Package: 1210  
+Ruv2,Yageo,RC0603FR-079K1L,1,0.01,4.68,Resistance: 9.1 kΩ  Tolerance: 1.0%  Power: 100 mW  
+Rilim,Vishay-Dale,CRCW04021K50FKED,1,0.01,3,Resistance: 1.5 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Rcomp1,Vishay-Dale,CRCW04021K27FKED,1,0.01,3,Resistance: 1.27 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Rvcc,Yageo,RC0603FR-0720KL,1,0.01,4.68,Resistance: 20 kΩ  Tolerance: 1.0%  Power: 100 mW  
