@@ -1,435 +1,1084 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 074a9d0b-fc12-4aa8-94e4-356d74449fb4)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "Mechanical:MountingHole_Pad" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "H" (at 0 6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "MountingHole_Pad" (at 0 4.445 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "mounting hole" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Mounting Hole with connection" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "MountingHole*Pad*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "MountingHole_Pad_0_1"
-        (circle (center 0 1.27) (radius 1.27)
-          (stroke (width 1.27) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "MountingHole_Pad_1_1"
-        (pin input line (at 0 -2.54 90) (length 2.54)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 29.21 120.65) (diameter 0) (color 0 0 0 0)
-    (uuid 0d49fcb9-c5c5-4343-9602-86007f4c7ef4)
-  )
-  (junction (at 44.45 76.2) (diameter 0) (color 0 0 0 0)
-    (uuid 27a4c3ea-2f6d-4f55-a1e0-2b5240bb4785)
-  )
-  (junction (at 29.21 97.79) (diameter 0) (color 0 0 0 0)
-    (uuid 2bbac745-ae2b-4bb0-b999-676ca73930de)
-  )
-  (junction (at 34.29 44.45) (diameter 0) (color 0 0 0 0)
-    (uuid 4aa66b64-64e5-4e3a-85eb-f8696c7612db)
-  )
-  (junction (at 34.29 69.85) (diameter 0) (color 0 0 0 0)
-    (uuid 8868a360-9dbd-4d30-8620-578c75afadbd)
-  )
-  (junction (at 44.45 97.79) (diameter 0) (color 0 0 0 0)
-    (uuid 8cf1b9f7-83d4-43b5-87c3-cb0a560bf892)
-  )
-  (junction (at 29.21 109.22) (diameter 0) (color 0 0 0 0)
-    (uuid a75f55cb-3a60-4159-8f5e-4204b10a5185)
-  )
-
-  (wire (pts (xy 52.07 76.2) (xy 44.45 76.2))
-    (stroke (width 0) (type default))
-    (uuid 173781ee-81f5-40b3-a8d6-b8d5f82d2e7e)
-  )
-  (wire (pts (xy 29.21 97.79) (xy 44.45 97.79))
-    (stroke (width 0) (type default))
-    (uuid 38923520-5359-492e-8514-94a00de857bb)
-  )
-  (wire (pts (xy 67.31 44.45) (xy 78.74 44.45))
-    (stroke (width 0) (type default))
-    (uuid 3d72c3c3-d6c5-4e5e-ab69-50f09b98a2e5)
-  )
-  (wire (pts (xy 52.07 50.8) (xy 44.45 50.8))
-    (stroke (width 0) (type default))
-    (uuid 5f397b26-62d2-40ea-869e-e33be283ce3c)
-  )
-  (wire (pts (xy 29.21 109.22) (xy 29.21 97.79))
-    (stroke (width 0) (type default))
-    (uuid 6962b417-19b2-4028-ab2b-c26ccd8fce94)
-  )
-  (wire (pts (xy 67.31 69.85) (xy 78.74 69.85))
-    (stroke (width 0) (type default))
-    (uuid 6a62586e-31f7-4b71-b34c-c63c86e68ea3)
-  )
-  (wire (pts (xy 31.75 44.45) (xy 34.29 44.45))
-    (stroke (width 0) (type default))
-    (uuid 8cdc97ed-2465-456a-8d58-dec4d95b6ba8)
-  )
-  (wire (pts (xy 34.29 44.45) (xy 52.07 44.45))
-    (stroke (width 0) (type default))
-    (uuid 93df3853-4bd3-4b60-b325-013303939699)
-  )
-  (wire (pts (xy 52.07 69.85) (xy 34.29 69.85))
-    (stroke (width 0) (type default))
-    (uuid a5783183-e4e3-4480-b917-d1fc70ce0fe5)
-  )
-  (wire (pts (xy 34.29 91.44) (xy 34.29 69.85))
-    (stroke (width 0) (type default))
-    (uuid b805a115-b405-44e6-a7d9-d0fcc7412820)
-  )
-  (wire (pts (xy 52.07 91.44) (xy 34.29 91.44))
-    (stroke (width 0) (type default))
-    (uuid c08f4ca6-0e88-4adf-a07c-1dc4f014e4df)
-  )
-  (wire (pts (xy 29.21 109.22) (xy 29.21 120.65))
-    (stroke (width 0) (type default))
-    (uuid c212f8e0-4fce-4d56-a4b0-ab2bd44d2da5)
-  )
-  (wire (pts (xy 34.29 69.85) (xy 34.29 44.45))
-    (stroke (width 0) (type default))
-    (uuid c4e30450-dcae-413e-a9c3-2ffe7dbd6398)
-  )
-  (wire (pts (xy 44.45 97.79) (xy 52.07 97.79))
-    (stroke (width 0) (type default))
-    (uuid d27ac11e-fee7-48f6-9370-9a7167dc6552)
-  )
-  (wire (pts (xy 67.31 91.44) (xy 80.01 91.44))
-    (stroke (width 0) (type default))
-    (uuid d7404ab7-9f9e-4d9d-8a4c-1ea4f8d6c39b)
-  )
-  (wire (pts (xy 29.21 120.65) (xy 29.21 130.81))
-    (stroke (width 0) (type default))
-    (uuid db9d9af5-01e5-4845-a59d-e7a1ec9ce083)
-  )
-  (wire (pts (xy 44.45 76.2) (xy 44.45 97.79))
-    (stroke (width 0) (type default))
-    (uuid df59891c-d0dc-4775-ae7c-d4a1388180b8)
-  )
-  (wire (pts (xy 44.45 50.8) (xy 44.45 76.2))
-    (stroke (width 0) (type default))
-    (uuid e5fa41f1-6e2d-4137-b4ec-daf461f7b7be)
-  )
-
-  (text "12.4-22V 12V 12.5A DC/DC converter" (at 189.23 190.5 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 448bd6c3-793b-468f-985f-000d30afb51a)
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 26.67 130.81 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 05e9a775-e1df-427b-b74d-51a193bc0d9d)
-    (property "Reference" "GND4" (at 25.4 124.46 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 25.4 127 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" (at 26.67 130.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 26.67 130.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f155b154-1a4e-4b7d-b852-75573ac92717))
-    (instances
-      (project "dcdc3"
-        (path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4"
-          (reference "GND4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 81.28 69.85 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2412f79e-0de9-436e-8586-66575c89be46)
-    (property "Reference" "V3.3out1" (at 85.09 69.85 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "~" (at 85.09 71.12 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" (at 81.28 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 81.28 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e1a2b552-1ea4-4b6c-86bb-209cbe6bd276))
-    (instances
-      (project "dcdc3"
-        (path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4"
-          (reference "V3.3out1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 81.28 44.45 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 76ba0d4d-fce8-46cd-9447-29f54636672e)
-    (property "Reference" "V5out1" (at 85.09 43.18 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "~" (at 85.09 45.72 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" (at 81.28 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 81.28 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d8400f90-de9d-4ca4-ae05-e8082cde1ef0))
-    (instances
-      (project "dcdc3"
-        (path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4"
-          (reference "V5out1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 26.67 120.65 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 781beec9-7b98-4ad5-ad20-aee9216d78fb)
-    (property "Reference" "GND3" (at 25.4 114.3 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 25.4 116.84 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" (at 26.67 120.65 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 26.67 120.65 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 34afe2f7-76fc-4437-a53d-281bc42e7e2f))
-    (instances
-      (project "dcdc3"
-        (path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4"
-          (reference "GND3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 82.55 91.44 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7a7cbddd-9a3b-4d40-b075-dcfc34ed7c2c)
-    (property "Reference" "V12out1" (at 86.36 91.44 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "~" (at 86.36 92.71 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" (at 82.55 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 82.55 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4a7fe0ac-9940-497a-868c-92baba830cfe))
-    (instances
-      (project "dcdc3"
-        (path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4"
-          (reference "V12out1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 26.67 97.79 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 826f3e2a-6be2-49de-a83a-0fb5be2badc0)
-    (property "Reference" "GND1" (at 25.4 91.44 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 25.4 93.98 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" (at 26.67 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 26.67 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6338c6d6-fce3-4509-a622-4e672c436e30))
-    (instances
-      (project "dcdc3"
-        (path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4"
-          (reference "GND1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 26.67 109.22 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8c68297f-9b6e-4fb6-9265-359cf10f6636)
-    (property "Reference" "GND2" (at 25.4 102.87 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 25.4 105.41 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" (at 26.67 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 26.67 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bb1c04fc-c129-4379-a5c9-8c9a6cdefcc8))
-    (instances
-      (project "dcdc3"
-        (path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4"
-          (reference "GND2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 29.21 44.45 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid dc8fae75-17d0-417c-97ab-556eb0d6eb47)
-    (property "Reference" "Vin1" (at 27.94 38.1 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "12.5-22V" (at 27.94 40.64 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" (at 29.21 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 29.21 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 34f2d77c-452b-4d05-8e11-0ec8acf07320))
-    (instances
-      (project "dcdc3"
-        (path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4"
-          (reference "Vin1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (sheet (at 52.07 38.1) (size 15.24 16.51) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 155d706f-e00c-42e1-8257-79e695311dd4)
-    (property "Sheetname" "5V" (at 52.07 37.3884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "5V.kicad_sch" (at 52.07 55.1946 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (pin "GND" bidirectional (at 52.07 50.8 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 2a87c8cc-c3d2-47c9-a356-ebf926810964)
-    )
-    (pin "Vin" input (at 52.07 44.45 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 8d091d58-f892-42f4-abe2-e0a62a79e895)
-    )
-    (pin "V5out" output (at 67.31 44.45 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid c051920b-f56e-4c47-bcab-628be09b24e0)
-    )
-    (instances
-      (project "dcdc3"
-        (path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 52.07 66.04) (size 15.24 13.97) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 422f6745-5801-4eed-ad16-242ed2cec958)
-    (property "Sheetname" "3.3V" (at 52.07 65.3284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "3.3V.kicad_sch" (at 52.07 80.5946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "V3.3out" output (at 67.31 69.85 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid f56c6264-0b80-4443-a270-c1a6b873b74b)
-    )
-    (pin "GND" bidirectional (at 52.07 76.2 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 5d91e25a-d366-4131-885d-f7bbf9ef2010)
-    )
-    (pin "Vin" input (at 52.07 69.85 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid ff6bba0a-a9e8-4db6-b50a-50ff59d4621d)
-    )
-    (instances
-      (project "dcdc3"
-        (path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 52.07 87.63) (size 15.24 13.97) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 8a2c3a4c-6095-454d-a020-e5ea5f5d80de)
-    (property "Sheetname" "12V" (at 52.07 86.9184 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "12V.kicad_sch" (at 52.07 102.1846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "V12out" output (at 67.31 91.44 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid d0708896-03a5-4de0-b991-e9377cc5d94c)
-    )
-    (pin "Vin" input (at 52.07 91.44 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 3bb40dee-094d-43a1-aa15-c7c866db7751)
-    )
-    (pin "GND" input (at 52.07 97.79 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 94e468c6-2852-459e-919d-e41683a88b5d)
-    )
-    (instances
-      (project "dcdc3"
-        (path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4" (page "3"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "074a9d0b-fc12-4aa8-94e4-356d74449fb4")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 29.21 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d49fcb9-c5c5-4343-9602-86007f4c7ef4")
+	)
+	(junction
+		(at 44.45 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27a4c3ea-2f6d-4f55-a1e0-2b5240bb4785")
+	)
+	(junction
+		(at 29.21 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bbac745-ae2b-4bb0-b999-676ca73930de")
+	)
+	(junction
+		(at 34.29 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4aa66b64-64e5-4e3a-85eb-f8696c7612db")
+	)
+	(junction
+		(at 34.29 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8868a360-9dbd-4d30-8620-578c75afadbd")
+	)
+	(junction
+		(at 44.45 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cf1b9f7-83d4-43b5-87c3-cb0a560bf892")
+	)
+	(junction
+		(at 29.21 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a75f55cb-3a60-4159-8f5e-4204b10a5185")
+	)
+	(wire
+		(pts
+			(xy 52.07 76.2) (xy 44.45 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "173781ee-81f5-40b3-a8d6-b8d5f82d2e7e")
+	)
+	(wire
+		(pts
+			(xy 29.21 97.79) (xy 44.45 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38923520-5359-492e-8514-94a00de857bb")
+	)
+	(wire
+		(pts
+			(xy 67.31 44.45) (xy 78.74 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d72c3c3-d6c5-4e5e-ab69-50f09b98a2e5")
+	)
+	(wire
+		(pts
+			(xy 52.07 50.8) (xy 44.45 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f397b26-62d2-40ea-869e-e33be283ce3c")
+	)
+	(wire
+		(pts
+			(xy 29.21 109.22) (xy 29.21 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6962b417-19b2-4028-ab2b-c26ccd8fce94")
+	)
+	(wire
+		(pts
+			(xy 67.31 69.85) (xy 78.74 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a62586e-31f7-4b71-b34c-c63c86e68ea3")
+	)
+	(wire
+		(pts
+			(xy 31.75 44.45) (xy 34.29 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cdc97ed-2465-456a-8d58-dec4d95b6ba8")
+	)
+	(wire
+		(pts
+			(xy 34.29 44.45) (xy 52.07 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93df3853-4bd3-4b60-b325-013303939699")
+	)
+	(wire
+		(pts
+			(xy 52.07 69.85) (xy 34.29 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5783183-e4e3-4480-b917-d1fc70ce0fe5")
+	)
+	(wire
+		(pts
+			(xy 34.29 91.44) (xy 34.29 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b805a115-b405-44e6-a7d9-d0fcc7412820")
+	)
+	(wire
+		(pts
+			(xy 52.07 91.44) (xy 34.29 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c08f4ca6-0e88-4adf-a07c-1dc4f014e4df")
+	)
+	(wire
+		(pts
+			(xy 29.21 109.22) (xy 29.21 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c212f8e0-4fce-4d56-a4b0-ab2bd44d2da5")
+	)
+	(wire
+		(pts
+			(xy 34.29 69.85) (xy 34.29 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4e30450-dcae-413e-a9c3-2ffe7dbd6398")
+	)
+	(wire
+		(pts
+			(xy 44.45 97.79) (xy 52.07 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d27ac11e-fee7-48f6-9370-9a7167dc6552")
+	)
+	(wire
+		(pts
+			(xy 67.31 91.44) (xy 80.01 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7404ab7-9f9e-4d9d-8a4c-1ea4f8d6c39b")
+	)
+	(wire
+		(pts
+			(xy 29.21 120.65) (xy 29.21 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db9d9af5-01e5-4845-a59d-e7a1ec9ce083")
+	)
+	(wire
+		(pts
+			(xy 44.45 76.2) (xy 44.45 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df59891c-d0dc-4775-ae7c-d4a1388180b8")
+	)
+	(wire
+		(pts
+			(xy 44.45 50.8) (xy 44.45 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5fa41f1-6e2d-4137-b4ec-daf461f7b7be")
+	)
+	(text "12.4-22V 12V 12.5A DC/DC converter"
+		(exclude_from_sim no)
+		(at 189.23 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "448bd6c3-793b-468f-985f-000d30afb51a")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 26.67 130.81 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05e9a775-e1df-427b-b74d-51a193bc0d9d")
+		(property "Reference" "GND4"
+			(at 25.4 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 25.4 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
+			(at 26.67 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f155b154-1a4e-4b7d-b852-75573ac92717")
+		)
+		(instances
+			(project "dcdc3"
+				(path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4"
+					(reference "GND4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 81.28 69.85 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2412f79e-0de9-436e-8586-66575c89be46")
+		(property "Reference" "V3.3out1"
+			(at 85.09 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 85.09 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
+			(at 81.28 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1a2b552-1ea4-4b6c-86bb-209cbe6bd276")
+		)
+		(instances
+			(project "dcdc3"
+				(path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4"
+					(reference "V3.3out1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 81.28 44.45 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76ba0d4d-fce8-46cd-9447-29f54636672e")
+		(property "Reference" "V5out1"
+			(at 85.09 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 85.09 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
+			(at 81.28 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8400f90-de9d-4ca4-ae05-e8082cde1ef0")
+		)
+		(instances
+			(project "dcdc3"
+				(path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4"
+					(reference "V5out1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 26.67 120.65 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "781beec9-7b98-4ad5-ad20-aee9216d78fb")
+		(property "Reference" "GND3"
+			(at 25.4 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 25.4 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
+			(at 26.67 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34afe2f7-76fc-4437-a53d-281bc42e7e2f")
+		)
+		(instances
+			(project "dcdc3"
+				(path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4"
+					(reference "GND3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 82.55 91.44 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a7cbddd-9a3b-4d40-b075-dcfc34ed7c2c")
+		(property "Reference" "V12out1"
+			(at 86.36 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 86.36 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
+			(at 82.55 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a7fe0ac-9940-497a-868c-92baba830cfe")
+		)
+		(instances
+			(project "dcdc3"
+				(path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4"
+					(reference "V12out1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 26.67 97.79 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "826f3e2a-6be2-49de-a83a-0fb5be2badc0")
+		(property "Reference" "GND1"
+			(at 25.4 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 25.4 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
+			(at 26.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6338c6d6-fce3-4509-a622-4e672c436e30")
+		)
+		(instances
+			(project "dcdc3"
+				(path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4"
+					(reference "GND1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 26.67 109.22 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c68297f-9b6e-4fb6-9265-359cf10f6636")
+		(property "Reference" "GND2"
+			(at 25.4 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 25.4 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
+			(at 26.67 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb1c04fc-c129-4379-a5c9-8c9a6cdefcc8")
+		)
+		(instances
+			(project "dcdc3"
+				(path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4"
+					(reference "GND2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 29.21 44.45 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc8fae75-17d0-417c-97ab-556eb0d6eb47")
+		(property "Reference" "Vin1"
+			(at 27.94 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12.5-22V"
+			(at 27.94 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
+			(at 29.21 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34f2d77c-452b-4d05-8e11-0ec8acf07320")
+		)
+		(instances
+			(project "dcdc3"
+				(path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4"
+					(reference "Vin1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 38.1)
+		(size 15.24 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "155d706f-e00c-42e1-8257-79e695311dd4")
+		(property "Sheetname" "5V"
+			(at 52.07 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5V.kicad_sch"
+			(at 52.07 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "GND" bidirectional
+			(at 52.07 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2a87c8cc-c3d2-47c9-a356-ebf926810964")
+		)
+		(pin "Vin" input
+			(at 52.07 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8d091d58-f892-42f4-abe2-e0a62a79e895")
+		)
+		(pin "V5out" output
+			(at 67.31 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c051920b-f56e-4c47-bcab-628be09b24e0")
+		)
+		(instances
+			(project "dcdc3"
+				(path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 66.04)
+		(size 15.24 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "422f6745-5801-4eed-ad16-242ed2cec958")
+		(property "Sheetname" "3.3V"
+			(at 52.07 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3.3V.kicad_sch"
+			(at 52.07 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V3.3out" output
+			(at 67.31 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f56c6264-0b80-4443-a270-c1a6b873b74b")
+		)
+		(pin "GND" bidirectional
+			(at 52.07 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5d91e25a-d366-4131-885d-f7bbf9ef2010")
+		)
+		(pin "Vin" input
+			(at 52.07 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ff6bba0a-a9e8-4db6-b50a-50ff59d4621d")
+		)
+		(instances
+			(project "dcdc3"
+				(path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 87.63)
+		(size 15.24 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8a2c3a4c-6095-454d-a020-e5ea5f5d80de")
+		(property "Sheetname" "12V"
+			(at 52.07 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "12V.kicad_sch"
+			(at 52.07 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V12out" output
+			(at 67.31 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d0708896-03a5-4de0-b991-e9377cc5d94c")
+		)
+		(pin "Vin" input
+			(at 52.07 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3bb40dee-094d-43a1-aa15-c7c866db7751")
+		)
+		(pin "GND" input
+			(at 52.07 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "94e468c6-2852-459e-919d-e41683a88b5d")
+		)
+		(instances
+			(project "dcdc3"
+				(path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
