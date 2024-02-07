@@ -386,7 +386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 26.67 130.81 0)
 			(effects
 				(font
@@ -453,7 +453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 81.28 69.85 0)
 			(effects
 				(font
@@ -520,7 +520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 81.28 44.45 0)
 			(effects
 				(font
@@ -586,7 +586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 26.67 120.65 0)
 			(effects
 				(font
@@ -653,7 +653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 82.55 91.44 0)
 			(effects
 				(font
@@ -719,7 +719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 26.67 97.79 0)
 			(effects
 				(font
@@ -785,7 +785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 26.67 109.22 0)
 			(effects
 				(font
@@ -850,7 +850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 29.21 44.45 0)
 			(effects
 				(font

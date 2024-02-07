@@ -577,6 +577,337 @@
 				)
 			)
 		)
+		(symbol "Local:IXFX360N10T"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IXFX360N10T"
+				(at 11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "TO545P521X1594X2566-3P"
+				(at 11.43 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/discrete_mosfets/littelfuse_discrete_mosfets_n-channel_trench_gate_ixf_360n10t_datasheet.pdf.pdf"
+				(at 11.43 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "DiscMSFT NChTrenchGate-Gen1 TO-247AD / TUBE"
+				(at 11.43 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "5.21"
+				(at 11.43 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "747-IXFX360N10T"
+				(at 11.43 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/IXYS/IXFX360N10T?qs=6UKyFUzHTlkm4QqeFb6%252BbQ%3D%3D"
+				(at 11.43 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "LITTELFUSE"
+				(at 11.43 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "IXFX360N10T"
+				(at 11.43 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sim.Library" "/home/mag/lib/Local.spices/IXFX360N1DT.LIB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Name" "IXFX360N1DT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "SUBCKT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=G 2=D 3=S"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IXFX360N10T_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 10.16 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "IXFX360N10T_0_1"
+				(polyline
+					(pts
+						(xy 5.842 -0.508) (xy 5.842 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.032) (xy 5.842 3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 5.588) (xy 5.842 4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 5.842 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.54) (xy 6.858 3.048) (xy 6.858 2.032) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 6.35 2.54)
+					(radius 3.81)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "New_Library:LM5145RGYR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1090,319 +1421,6 @@
 				)
 			)
 		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-manual.pdf"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "NMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 228.6 156.21)
@@ -1430,7 +1448,7 @@
 	)
 	(junction
 		(at 181.61 76.2)
-		(diameter 4)
+		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3229daa7-9d77-480c-a1b7-60f1f6b2e816")
 	)
@@ -1442,7 +1460,7 @@
 	)
 	(junction
 		(at 66.04 22.86)
-		(diameter 4)
+		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35f30654-944a-4cbe-8226-6ed4a1dfd97e")
 	)
@@ -1454,13 +1472,13 @@
 	)
 	(junction
 		(at 66.04 156.21)
-		(diameter 4)
+		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3afef74c-aba5-4c88-a1c9-e1c81bc228ea")
 	)
 	(junction
 		(at 210.82 76.2)
-		(diameter 4)
+		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4cdb0a22-b8fb-4a12-a202-b7193a219ea9")
 	)
@@ -1484,7 +1502,7 @@
 	)
 	(junction
 		(at 76.2 156.21)
-		(diameter 4)
+		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73397890-2d39-4781-a9b9-e55b463cce92")
 	)
@@ -1502,7 +1520,7 @@
 	)
 	(junction
 		(at 198.12 156.21)
-		(diameter 4)
+		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77a13faa-ec43-4a9a-9152-2a34b3266f57")
 	)
@@ -1525,26 +1543,20 @@
 		(uuid "83379e94-889f-406c-958d-fc93a1d8d304")
 	)
 	(junction
-		(at 181.61 86.36)
-		(diameter 4)
-		(color 0 0 0 0)
-		(uuid "89201b5f-c08f-4634-9ef5-4cb595746650")
-	)
-	(junction
-		(at 181.61 156.21)
-		(diameter 4)
-		(color 0 0 0 0)
-		(uuid "a13f682b-78df-4572-b753-961fed7503e7")
-	)
-	(junction
 		(at 181.61 81.28)
-		(diameter 4)
+		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a847d9ea-e336-45c7-8a04-d918a94f410f")
 	)
 	(junction
+		(at 181.61 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a904dfb3-e41f-4018-927b-a8d498219825")
+	)
+	(junction
 		(at 198.12 76.2)
-		(diameter 4)
+		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad1af87c-7fc1-4859-bef0-6dd8356eaf46")
 	)
@@ -1555,20 +1567,32 @@
 		(uuid "affd8b61-8923-4ae9-903e-2f3c9f9733d0")
 	)
 	(junction
+		(at 59.69 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afffb71b-d6fe-418b-a11c-a4112d7c8aea")
+	)
+	(junction
 		(at 198.12 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc0e6a4d-cdde-4980-81a9-c4bf68a64634")
 	)
 	(junction
+		(at 181.61 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5f2be93-a762-4c37-8bb4-85203c44e2b7")
+	)
+	(junction
 		(at 162.56 22.86)
-		(diameter 4)
+		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca467eb0-ece6-45bc-ad6a-0b982f7b7c52")
 	)
 	(junction
 		(at 115.57 156.21)
-		(diameter 4)
+		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbe8ebd8-4df9-4813-b6d9-dc6d7db4ed64")
 	)
@@ -1586,19 +1610,19 @@
 	)
 	(junction
 		(at 135.89 156.21)
-		(diameter 4)
+		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9b55f70-44ef-4bde-87ff-2678deb29d8d")
 	)
 	(junction
 		(at 106.68 156.21)
-		(diameter 4)
+		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f17d25a4-4fca-4827-b889-15c27a1a1835")
 	)
 	(junction
 		(at 162.56 156.21)
-		(diameter 4)
+		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2638119-fa9a-4ff7-b53a-67e6cb135119")
 	)
@@ -1630,16 +1654,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 156.21) (xy 76.2 156.21)
-		)
-		(stroke
-			(width 3)
-			(type default)
-		)
-		(uuid "0a2c523a-980f-4dc8-8344-d6d37e8b24d2")
-	)
-	(wire
-		(pts
 			(xy 177.8 81.28) (xy 181.61 81.28)
 		)
 		(stroke
@@ -1653,7 +1667,7 @@
 			(xy 46.99 156.21) (xy 59.69 156.21)
 		)
 		(stroke
-			(width 3)
+			(width 0)
 			(type default)
 		)
 		(uuid "10740c47-0a38-4a83-b040-1b20e07b07d9")
@@ -1663,7 +1677,7 @@
 			(xy 115.57 156.21) (xy 135.89 156.21)
 		)
 		(stroke
-			(width 3)
+			(width 0)
 			(type default)
 		)
 		(uuid "10770e22-3dc6-4d8b-bea6-69df212e02f6")
@@ -1690,13 +1704,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 156.21) (xy 228.6 156.21)
+			(xy 181.61 22.86) (xy 181.61 49.53)
 		)
 		(stroke
-			(width 3)
+			(width 0)
 			(type default)
 		)
-		(uuid "160c6a3d-a65b-49a9-91dd-6f76d048eb10")
+		(uuid "130d704b-f7d8-4ad3-bab4-efe586d504b3")
 	)
 	(wire
 		(pts
@@ -1820,6 +1834,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 105.41) (xy 181.61 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28e53225-3f69-4c26-9fcf-5d292c8762b1")
+	)
+	(wire
+		(pts
 			(xy 69.85 92.71) (xy 69.85 93.98)
 		)
 		(stroke
@@ -1863,7 +1887,7 @@
 			(xy 106.68 156.21) (xy 115.57 156.21)
 		)
 		(stroke
-			(width 3)
+			(width 0)
 			(type default)
 		)
 		(uuid "35586c17-3fa9-4765-9d1b-8f8c62f8f99f")
@@ -1910,6 +1934,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 90.17) (xy 181.61 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4360a7c8-7367-4d1f-9969-e3b0e6fdfe4c")
+	)
+	(wire
+		(pts
 			(xy 162.56 50.8) (xy 162.56 53.34)
 		)
 		(stroke
@@ -1917,16 +1951,6 @@
 			(type default)
 		)
 		(uuid "45877525-eea2-4d39-a859-389aaa3ea70d")
-	)
-	(wire
-		(pts
-			(xy 181.61 86.36) (xy 181.61 95.25)
-		)
-		(stroke
-			(width 3)
-			(type default)
-		)
-		(uuid "46c89bd1-313e-4fe4-9475-59110011ed28")
 	)
 	(wire
 		(pts
@@ -1947,16 +1971,6 @@
 			(type default)
 		)
 		(uuid "4fad0bd2-6845-4aea-a4e4-db02b12f7db6")
-	)
-	(wire
-		(pts
-			(xy 181.61 156.21) (xy 162.56 156.21)
-		)
-		(stroke
-			(width 3)
-			(type default)
-		)
-		(uuid "50e79f6a-a63a-4526-babc-9dc1943eca5b")
 	)
 	(wire
 		(pts
@@ -2003,7 +2017,7 @@
 			(xy 194.31 76.2) (xy 198.12 76.2)
 		)
 		(stroke
-			(width 3)
+			(width 0)
 			(type default)
 		)
 		(uuid "61180be4-2cbf-45aa-a5a9-68aa10400224")
@@ -2013,7 +2027,7 @@
 			(xy 162.56 22.86) (xy 66.04 22.86)
 		)
 		(stroke
-			(width 3)
+			(width 0)
 			(type default)
 		)
 		(uuid "6166da14-4336-44af-aac9-10e74059b857")
@@ -2097,16 +2111,6 @@
 			(type default)
 		)
 		(uuid "751f35d5-9811-4408-baca-d4d0235de1e5")
-	)
-	(wire
-		(pts
-			(xy 181.61 64.77) (xy 181.61 76.2)
-		)
-		(stroke
-			(width 3)
-			(type default)
-		)
-		(uuid "7b011f4b-b02c-4b40-8cfe-5d6ab52f8696")
 	)
 	(wire
 		(pts
@@ -2203,7 +2207,7 @@
 			(xy 228.6 106.68) (xy 228.6 156.21)
 		)
 		(stroke
-			(width 3)
+			(width 0)
 			(type default)
 		)
 		(uuid "91145dd3-fd70-4a66-b591-87e0a1ed0298")
@@ -2240,6 +2244,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 86.36) (xy 182.88 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c7d9adf-4e10-40b2-9706-4f9154cfd1a9")
+	)
+	(wire
+		(pts
 			(xy 66.04 45.72) (xy 66.04 54.61)
 		)
 		(stroke
@@ -2260,16 +2274,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 54.61) (xy 181.61 22.86)
-		)
-		(stroke
-			(width 3)
-			(type default)
-		)
-		(uuid "9f18d807-393c-4b66-8efa-ba085f7f83b3")
-	)
-	(wire
-		(pts
 			(xy 198.12 156.21) (xy 228.6 156.21)
 		)
 		(stroke
@@ -2283,7 +2287,7 @@
 			(xy 181.61 81.28) (xy 181.61 76.2)
 		)
 		(stroke
-			(width 3)
+			(width 0)
 			(type default)
 		)
 		(uuid "acadd71c-bd09-477d-87d6-5e744e7ec69f")
@@ -2353,7 +2357,7 @@
 			(xy 59.69 156.21) (xy 66.04 156.21)
 		)
 		(stroke
-			(width 3)
+			(width 0)
 			(type default)
 		)
 		(uuid "bdc6334c-0dc2-4a5d-9663-8b4627a4b721")
@@ -2373,7 +2377,7 @@
 			(xy 210.82 76.2) (xy 228.6 76.2)
 		)
 		(stroke
-			(width 3)
+			(width 0)
 			(type default)
 		)
 		(uuid "be33e964-cc93-47a0-85bb-91f394f268cc")
@@ -2393,7 +2397,7 @@
 			(xy 135.89 156.21) (xy 162.56 156.21)
 		)
 		(stroke
-			(width 3)
+			(width 0)
 			(type default)
 		)
 		(uuid "bf3cc935-de2c-4b33-a5b5-e0a6f0502f26")
@@ -2413,7 +2417,7 @@
 			(xy 76.2 156.21) (xy 106.68 156.21)
 		)
 		(stroke
-			(width 3)
+			(width 0)
 			(type default)
 		)
 		(uuid "c6846846-5890-416d-aaf6-adc147871244")
@@ -2450,16 +2454,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 105.41) (xy 181.61 156.21)
-		)
-		(stroke
-			(width 3)
-			(type default)
-		)
-		(uuid "ce91e314-ff83-408d-b95b-34e140e1cfe4")
-	)
-	(wire
-		(pts
 			(xy 162.56 27.94) (xy 162.56 22.86)
 		)
 		(stroke
@@ -2473,7 +2467,7 @@
 			(xy 66.04 156.21) (xy 69.85 156.21)
 		)
 		(stroke
-			(width 3)
+			(width 0)
 			(type default)
 		)
 		(uuid "d38c2c7a-e2c0-48b7-9e62-bf7c4dbc4157")
@@ -2483,7 +2477,7 @@
 			(xy 59.69 22.86) (xy 66.04 22.86)
 		)
 		(stroke
-			(width 3)
+			(width 0)
 			(type default)
 		)
 		(uuid "d49bdfe0-d7bb-400e-95d9-293798a8db92")
@@ -2493,7 +2487,7 @@
 			(xy 198.12 76.2) (xy 210.82 76.2)
 		)
 		(stroke
-			(width 3)
+			(width 0)
 			(type default)
 		)
 		(uuid "d61ba93c-647e-4347-8257-dea32f2dc6e0")
@@ -2520,10 +2514,10 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 156.21) (xy 198.12 156.21)
+			(xy 162.56 156.21) (xy 181.61 156.21)
 		)
 		(stroke
-			(width 3)
+			(width 0)
 			(type default)
 		)
 		(uuid "d83876f7-42fd-44ae-96a9-8de0cd39a604")
@@ -2533,7 +2527,7 @@
 			(xy 181.61 76.2) (xy 186.69 76.2)
 		)
 		(stroke
-			(width 3)
+			(width 0)
 			(type default)
 		)
 		(uuid "d8661049-a8b0-4e38-9f8d-712c43b2307c")
@@ -2550,7 +2544,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 156.21) (xy 72.39 156.21)
+			(xy 69.85 156.21) (xy 76.2 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2640,10 +2634,20 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 156.21) (xy 198.12 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeaa65e4-e034-4f57-883e-d9c38d8def40")
+	)
+	(wire
+		(pts
 			(xy 181.61 22.86) (xy 162.56 22.86)
 		)
 		(stroke
-			(width 3)
+			(width 0)
 			(type default)
 		)
 		(uuid "efb89ad4-28d9-4891-9dce-69f3ec375b47")
@@ -2670,10 +2674,20 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 64.77) (xy 181.61 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f36b1664-3729-4175-aad2-5c5087781a52")
+	)
+	(wire
+		(pts
 			(xy 228.6 76.2) (xy 233.68 76.2)
 		)
 		(stroke
-			(width 3)
+			(width 0)
 			(type default)
 		)
 		(uuid "f4c30746-a967-42b1-81fb-1dba32eab2f3")
@@ -2693,7 +2707,7 @@
 			(xy 181.61 81.28) (xy 181.61 86.36)
 		)
 		(stroke
-			(width 3)
+			(width 0)
 			(type default)
 		)
 		(uuid "fc1441ea-16ef-435c-87b6-322d6d4dd7b6")
@@ -2710,10 +2724,10 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 22.86) (xy 58.42 22.86)
+			(xy 49.53 22.86) (xy 59.69 22.86)
 		)
 		(stroke
-			(width 3)
+			(width 0)
 			(type default)
 		)
 		(uuid "ffdacd2b-f6bd-4e93-9c69-d9b70f974aca")
@@ -2800,7 +2814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 162.56 31.75 0)
 			(effects
 				(font
@@ -2879,7 +2893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 198.12 91.44 0)
 			(effects
 				(font
@@ -2958,7 +2972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 210.82 104.14 0)
 			(effects
 				(font
@@ -2986,6 +3000,148 @@
 			(project "dcdc3"
 				(path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4/8a2c3a4c-6095-454d-a020-e5ea5f5d80de"
 					(reference "Ccomp3-3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Local:IXFX360N10T")
+		(at 173.99 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20c4a69a-3958-4a85-838e-4a478fa61cf6")
+		(property "Reference" "M1-3"
+			(at 185.42 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "30V 60A"
+			(at 185.42 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:TO545P521X1594X2566-3P"
+			(at 185.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 185.42 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "747-IXFX360N10T"
+			(at 185.42 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 185.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IXFX360N10T"
+			(at 185.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "IXFX360N1DT"
+			(at 173.99 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 173.99 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 173.99 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 0 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1166b077-a63a-4f9b-b876-45d3916fcb50")
+		)
+		(pin "2"
+			(uuid "2a546073-b0b2-4f9b-8e42-849aefa01460")
+		)
+		(pin "3"
+			(uuid "545fa900-a16e-46bd-900c-1fc949967c7d")
+		)
+		(instances
+			(project "dcdc3"
+				(path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4/8a2c3a4c-6095-454d-a020-e5ea5f5d80de"
+					(reference "M1-3")
 					(unit 1)
 				)
 			)
@@ -3037,7 +3193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 106.68 135.89 0)
 			(effects
 				(font
@@ -3116,7 +3272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 133.35 119.38 0)
 			(effects
 				(font
@@ -3195,7 +3351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 198.12 143.51 0)
 			(effects
 				(font
@@ -3274,7 +3430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 135.89 140.97 0)
 			(effects
 				(font
@@ -3353,7 +3509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 66.04 41.91 0)
 			(effects
 				(font
@@ -3414,7 +3570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RGY0020B"
+		(property "Footprint" "Library:RGY0020B"
 			(at 149.86 158.42 0)
 			(effects
 				(font
@@ -3667,7 +3823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at 228.6 102.87 0)
 			(effects
 				(font
@@ -3744,7 +3900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 173.99 81.28 0)
 			(effects
 				(font
@@ -3823,7 +3979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 69.85 90.17 0)
 			(effects
 				(font
@@ -3902,7 +4058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 88.9 100.33 0)
 			(effects
 				(font
@@ -3979,7 +4135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor"
 			(at 190.5 76.2 0)
 			(effects
 				(font
@@ -4058,7 +4214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 96.52 106.68 0)
 			(effects
 				(font
@@ -4135,7 +4291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 110.49 91.44 0)
 			(effects
 				(font
@@ -4163,115 +4319,6 @@
 			(project "dcdc3"
 				(path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4/8a2c3a4c-6095-454d-a020-e5ea5f5d80de"
 					(reference "Rvcc1-3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 179.07 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8edaf34-2a42-4d44-a0dd-4dee9bfc5623")
-		(property "Reference" "M1-3"
-			(at 185.42 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "30V 60A"
-			(at 185.42 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Library:TO545P521X1594X2566-3P"
-			(at 184.15 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-manual.pdf"
-			(at 179.07 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 179.07 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 179.07 76.835 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 179.07 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 179.07 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IXFX360N10T"
-			(at 179.07 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "174da21a-7d5b-4909-84d6-fed07b743496")
-		)
-		(pin "3"
-			(uuid "fb2c19ab-2797-4a7d-b2c3-45456fe1abe7")
-		)
-		(pin "1"
-			(uuid "d9435993-8307-4ea4-b8ae-0fca9514f9bd")
-		)
-		(instances
-			(project "dcdc3"
-				(path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4/8a2c3a4c-6095-454d-a020-e5ea5f5d80de"
-					(reference "M1-3")
 					(unit 1)
 				)
 			)
@@ -4323,7 +4370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 162.56 46.99 0)
 			(effects
 				(font
@@ -4351,115 +4398,6 @@
 			(project "dcdc3"
 				(path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4/8a2c3a4c-6095-454d-a020-e5ea5f5d80de"
 					(reference "Cvin-3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 179.07 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "acb10437-2121-4738-a12c-a97d0702eb71")
-		(property "Reference" "M2-3"
-			(at 185.42 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "30V 35A"
-			(at 185.42 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Library:TO545P521X1594X2566-3P"
-			(at 184.15 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-manual.pdf"
-			(at 179.07 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 179.07 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 179.07 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 179.07 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 179.07 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IXFX360N10T"
-			(at 179.07 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4cadd459-2f79-4449-b951-76f51a25e40b")
-		)
-		(pin "3"
-			(uuid "5cb8c3c6-cba9-47b1-9534-58b53c10b673")
-		)
-		(pin "1"
-			(uuid "4ff6d7ac-aeda-421b-a92d-73a318ab0024")
-		)
-		(instances
-			(project "dcdc3"
-				(path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4/8a2c3a4c-6095-454d-a020-e5ea5f5d80de"
-					(reference "M2-3")
 					(unit 1)
 				)
 			)
@@ -4511,7 +4449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 59.69 62.23 0)
 			(effects
 				(font
@@ -4590,7 +4528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 210.82 92.71 0)
 			(effects
 				(font
@@ -4669,7 +4607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 76.2 99.06 0)
 			(effects
 				(font
@@ -4748,7 +4686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 66.04 68.58 0)
 			(effects
 				(font
@@ -4825,7 +4763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 148.59 133.35 0)
 			(effects
 				(font
@@ -4904,7 +4842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 96.52 93.98 0)
 			(effects
 				(font
@@ -4932,6 +4870,148 @@
 			(project "dcdc3"
 				(path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4/8a2c3a4c-6095-454d-a020-e5ea5f5d80de"
 					(reference "Ccomp1-3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Local:IXFX360N10T")
+		(at 173.99 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe90bb66-fa39-46f7-97d1-95c0bdb52aea")
+		(property "Reference" "M2-3"
+			(at 185.42 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "30V 35A"
+			(at 185.42 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:TO545P521X1594X2566-3P"
+			(at 185.42 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 185.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "747-IXFX360N10T"
+			(at 185.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 185.42 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IXFX360N10T"
+			(at 185.42 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "IXFX360N1DT"
+			(at 173.99 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 173.99 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 173.99 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 0 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78ab6cbd-94cd-4524-86be-ab9ac898c006")
+		)
+		(pin "2"
+			(uuid "d0b6a9d7-ffa6-4696-8c45-73afbd3b4449")
+		)
+		(pin "3"
+			(uuid "9382900e-181a-4e5c-a21c-0606eb78a699")
+		)
+		(instances
+			(project "dcdc3"
+				(path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4/8a2c3a4c-6095-454d-a020-e5ea5f5d80de"
+					(reference "M2-3")
 					(unit 1)
 				)
 			)
