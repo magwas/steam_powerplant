@@ -121,6 +121,12 @@
 		(uuid "27a4c3ea-2f6d-4f55-a1e0-2b5240bb4785")
 	)
 	(junction
+		(at 29.21 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2827406b-a65e-4907-bec4-13488ea187c8")
+	)
+	(junction
 		(at 29.21 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -239,6 +245,16 @@
 			(type default)
 		)
 		(uuid "a5783183-e4e3-4480-b917-d1fc70ce0fe5")
+	)
+	(wire
+		(pts
+			(xy 29.21 130.81) (xy 29.21 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ada81452-8bb2-4287-9104-449d33aeaf6b")
 	)
 	(wire
 		(pts
@@ -469,6 +485,72 @@
 			(project "dcdc3"
 				(path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4"
 					(reference "V3.3out1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 26.67 138.43 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27b863fe-8b22-4366-9250-e43149cff4a9")
+		(property "Reference" "GND5"
+			(at 25.4 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 25.4 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
+			(at 26.67 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 26.67 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ed8c0c4-08ab-407b-bf9d-84b784780329")
+		)
+		(instances
+			(project "dcdc3"
+				(path "/074a9d0b-fc12-4aa8-94e4-356d74449fb4"
+					(reference "GND5")
 					(unit 1)
 				)
 			)

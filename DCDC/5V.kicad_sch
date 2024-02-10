@@ -3861,7 +3861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.allaboutcircuits.com/tools/coil-inductance-calculator/"
 			(at 187.96 78.74 0)
 			(effects
 				(font
@@ -3879,7 +3879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "D=15mm,N=15,L=15mm,d=2mm"
 			(at 187.96 78.74 0)
 			(effects
 				(font

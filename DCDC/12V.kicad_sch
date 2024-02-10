@@ -4126,7 +4126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.allaboutcircuits.com/tools/coil-inductance-calculator/"
 			(at 190.5 76.2 0)
 			(effects
 				(font
@@ -4144,7 +4144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "R=15,L=2.145,N=11,d=1.95, Rwire=1.68 mOhm"
+		(property "Manufacturer_Part_Number" "D=15mm,N=20,L=20mm,d=2mm"
 			(at 190.5 76.2 0)
 			(effects
 				(font

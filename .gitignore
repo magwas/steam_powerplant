@@ -13,6 +13,11 @@
 *.avif
 *.dxf
 ~*.lck
+*.zip
 DCDC/dcdc3-backups/
 DCDC/_autosave-dcdc3.kicad_sch
 DCDC/_autosave*
+*.dae
+*.mtl
+*.obj
+*.step
