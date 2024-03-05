@@ -21,3 +21,6 @@ DCDC/_autosave*
 *.mtl
 *.obj
 *.step
+*.FCBak
+BMS/gerber/
+DCDC/svg/

@@ -262,6 +262,200 @@
 				)
 			)
 		)
+		(symbol "Local:Y14880R00500B9R"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Y14880R00500B9R"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Y14880R00500B9R"
+				(at 16.51 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/Y14880R00500B9R.pdf"
+				(at 16.51 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Current Sense Resistors - SMD 0.005ohms 0.1% 3w"
+				(at 16.51 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.635"
+				(at 16.51 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "71-CSM36370R0050BST"
+				(at 16.51 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=71-CSM36370R0050BST"
+				(at 16.51 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Vishay"
+				(at 16.51 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "Y14880R00500B9R"
+				(at 16.51 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "Y14880R00500B9R_0_0"
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Y14880R00500B9R_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 15.24 2.54) (xy 15.24 -5.08) (xy 5.08 -5.08) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -360,22 +554,16 @@
 		)
 	)
 	(junction
+		(at 134.62 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0006c39f-6e0d-488a-8f4f-e02a8197360e")
+	)
+	(junction
 		(at 82.55 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f0ebf99-7729-4e47-8e71-2b0d74a999d9")
-	)
-	(junction
-		(at 109.22 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "223ef9f8-417f-4a35-a015-77dce2a72433")
-	)
-	(junction
-		(at 109.22 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a75b1b7-bc27-4943-a70e-7b6ae9383d7b")
 	)
 	(junction
 		(at 86.36 109.22)
@@ -384,16 +572,28 @@
 		(uuid "53b0f2c7-54a0-4b3b-a947-e8cb3c72709a")
 	)
 	(junction
-		(at 109.22 109.22)
+		(at 116.84 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "63ae0d1d-8eb5-47ff-9671-b14b90279cdd")
+		(uuid "63d72474-3e2e-4b98-b918-7b356f4ccec8")
+	)
+	(junction
+		(at 109.22 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b67ba1e-963a-4a3d-a502-e6bdc2f96fb6")
 	)
 	(junction
 		(at 77.47 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ff7e464-365e-4fd7-80de-d4f518b3b248")
+	)
+	(junction
+		(at 82.55 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71684be0-6965-40a2-9b77-01d4cf4b5761")
 	)
 	(junction
 		(at 109.22 95.25)
@@ -414,6 +614,12 @@
 		(uuid "82db19d5-302a-4ccc-8ff2-ef1598923641")
 	)
 	(junction
+		(at 109.22 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b80e267-10b1-4cc0-bd7b-6a58fe839108")
+	)
+	(junction
 		(at 77.47 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -424,12 +630,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96d25e20-14f4-4ed5-adfb-8f95df9b2bab")
-	)
-	(junction
-		(at 82.55 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6ef2e17-e178-4998-8aa3-d3a0b7dedb03")
 	)
 	(junction
 		(at 82.55 77.47)
@@ -448,6 +648,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2a6c73e-bf2d-4385-9e77-15a92cfe630b")
+	)
+	(junction
+		(at 134.62 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f570cc0e-aeda-4e02-be16-d7dd8ae07ebb")
 	)
 	(junction
 		(at 82.55 55.88)
@@ -473,16 +679,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 36.83) (xy 109.22 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d1a6e69-966f-4543-b58a-a5c027cefa65")
-	)
-	(wire
-		(pts
 			(xy 90.17 102.87) (xy 90.17 133.35)
 		)
 		(stroke
@@ -490,6 +686,16 @@
 			(type default)
 		)
 		(uuid "10cc369c-d31f-4033-a0dc-ef76f6695f0d")
+	)
+	(wire
+		(pts
+			(xy 109.22 86.36) (xy 116.84 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10d98010-bab8-4e98-b9c6-d41b4ceab6f8")
 	)
 	(wire
 		(pts
@@ -503,6 +709,26 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 86.36) (xy 134.62 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13f987e3-aa8e-4932-8c3e-948910afd6b1")
+	)
+	(wire
+		(pts
+			(xy 82.55 45.72) (xy 104.14 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18c65f3e-ed55-4994-8d9a-d1830db65d62")
+	)
+	(wire
+		(pts
 			(xy 72.39 36.83) (xy 82.55 36.83)
 		)
 		(stroke
@@ -510,26 +736,6 @@
 			(type default)
 		)
 		(uuid "1a8ba402-6473-42d6-ad2d-c45ba43dcf86")
-	)
-	(wire
-		(pts
-			(xy 106.68 66.04) (xy 113.03 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1be4fce2-da05-4708-b122-6bed999fdaec")
-	)
-	(wire
-		(pts
-			(xy 109.22 95.25) (xy 109.22 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cbaf77d-40f9-4575-8f39-0bf5757271e2")
 	)
 	(wire
 		(pts
@@ -553,6 +759,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 119.38) (xy 109.22 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a5ab468-a6a4-4218-a022-1931c8bb7b12")
+	)
+	(wire
+		(pts
 			(xy 78.74 127) (xy 78.74 133.35)
 		)
 		(stroke
@@ -573,7 +789,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 55.88) (xy 99.06 55.88)
+			(xy 82.55 55.88) (xy 104.14 55.88)
 		)
 		(stroke
 			(width 0)
@@ -583,7 +799,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 66.04) (xy 99.06 66.04)
+			(xy 82.55 66.04) (xy 104.14 66.04)
 		)
 		(stroke
 			(width 0)
@@ -593,7 +809,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 77.47) (xy 113.03 77.47)
+			(xy 134.62 77.47) (xy 138.43 77.47)
 		)
 		(stroke
 			(width 0)
@@ -623,7 +839,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 86.36) (xy 109.22 77.47)
+			(xy 134.62 77.47) (xy 134.62 86.36)
 		)
 		(stroke
 			(width 0)
@@ -643,23 +859,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 109.22) (xy 99.06 109.22)
+			(xy 111.76 77.47) (xy 134.62 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "55996bac-cd7e-4716-886e-9f5f9e0f1922")
-	)
-	(wire
-		(pts
-			(xy 109.22 105.41) (xy 109.22 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "562d3055-8b00-4ae4-a157-b81385ade6eb")
+		(uuid "56682224-7243-4b43-b630-9c425c614157")
 	)
 	(wire
 		(pts
@@ -683,13 +889,23 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 36.83) (xy 113.03 36.83)
+			(xy 134.62 36.83) (xy 138.43 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "60366c80-19e3-4aad-ba5f-97fc2a70e621")
+	)
+	(wire
+		(pts
+			(xy 111.76 36.83) (xy 134.62 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64bd4f30-aaad-43a7-b13e-c59fc038f5c9")
 	)
 	(wire
 		(pts
@@ -713,7 +929,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 30.48) (xy 109.22 30.48)
+			(xy 85.09 30.48) (xy 134.62 30.48)
 		)
 		(stroke
 			(width 0)
@@ -733,17 +949,17 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 45.72) (xy 113.03 45.72)
+			(xy 82.55 36.83) (xy 104.14 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d02a87d-6d48-4b52-8b94-aeed0407b1a0")
+		(uuid "79422546-8663-48c5-adb8-438721c9ca07")
 	)
 	(wire
 		(pts
-			(xy 109.22 109.22) (xy 109.22 133.35)
+			(xy 109.22 109.22) (xy 109.22 115.57)
 		)
 		(stroke
 			(width 0)
@@ -763,16 +979,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 45.72) (xy 99.06 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fe59eac-1880-441c-9c51-7f6fcbbf49d5")
-	)
-	(wire
-		(pts
 			(xy 78.74 118.11) (xy 78.74 119.38)
 		)
 		(stroke
@@ -783,16 +989,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 77.47) (xy 109.22 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93958063-44a7-4331-951b-b58972348148")
-	)
-	(wire
-		(pts
 			(xy 82.55 74.93) (xy 82.55 77.47)
 		)
 		(stroke
@@ -800,16 +996,6 @@
 			(type default)
 		)
 		(uuid "9673a40b-d4dc-4f06-94c7-3effa1c02886")
-	)
-	(wire
-		(pts
-			(xy 82.55 36.83) (xy 99.06 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ea7bf93-95c9-4209-9578-126ee2103f1a")
 	)
 	(wire
 		(pts
@@ -843,6 +1029,26 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 45.72) (xy 138.43 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3d58467-ab1d-4920-89ca-eb937b76e5b1")
+	)
+	(wire
+		(pts
+			(xy 111.76 55.88) (xy 138.43 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbfb941a-e2ba-4d41-b02c-3c7f3c6c683d")
+	)
+	(wire
+		(pts
 			(xy 78.74 133.35) (xy 86.36 133.35)
 		)
 		(stroke
@@ -850,6 +1056,16 @@
 			(type default)
 		)
 		(uuid "c035b2e2-8aef-4fc5-80be-008f57bd957a")
+	)
+	(wire
+		(pts
+			(xy 109.22 95.25) (xy 114.3 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2a431e3-5cff-475f-8857-306fd009f7fa")
 	)
 	(wire
 		(pts
@@ -863,16 +1079,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 55.88) (xy 113.03 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9d566c3-fd0d-41c4-a358-bd634ab2c748")
-	)
-	(wire
-		(pts
 			(xy 77.47 102.87) (xy 77.47 109.22)
 		)
 		(stroke
@@ -880,6 +1086,26 @@
 			(type default)
 		)
 		(uuid "cb728baa-50b8-49d9-9993-a93308c8934b")
+	)
+	(wire
+		(pts
+			(xy 109.22 119.38) (xy 109.22 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb87ef38-20d4-45cf-83b0-ca70d80449e0")
+	)
+	(wire
+		(pts
+			(xy 116.84 95.25) (xy 116.84 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce51109c-dd6b-46d8-930e-88f447304da9")
 	)
 	(wire
 		(pts
@@ -903,7 +1129,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 30.48) (xy 109.22 36.83)
+			(xy 134.62 30.48) (xy 134.62 36.83)
 		)
 		(stroke
 			(width 0)
@@ -943,13 +1169,33 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 77.47) (xy 82.55 77.47)
+			(xy 82.55 77.47) (xy 104.14 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e0937b06-b5fb-4a0d-8fbe-8d5b6ec9ce47")
+	)
+	(wire
+		(pts
+			(xy 116.84 115.57) (xy 116.84 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0c9c75d-9940-4636-8573-0d471d892397")
+	)
+	(wire
+		(pts
+			(xy 114.3 115.57) (xy 109.22 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef70c5cf-94b3-4056-8dff-82d91bebe8e9")
 	)
 	(wire
 		(pts
@@ -973,6 +1219,26 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 115.57) (xy 109.22 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5cccf03-dcdd-4f74-9ca5-d3ccef8d80d3")
+	)
+	(wire
+		(pts
+			(xy 111.76 66.04) (xy 138.43 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6bb776e-16b6-4ded-9b01-c64228bc46ec")
+	)
+	(wire
+		(pts
 			(xy 109.22 95.25) (xy 109.22 86.36)
 		)
 		(stroke
@@ -980,6 +1246,16 @@
 			(type default)
 		)
 		(uuid "fb03bfed-d7a0-45fa-bb05-b193efcdf150")
+	)
+	(wire
+		(pts
+			(xy 86.36 109.22) (xy 99.06 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe2190d9-caf5-4a05-97f2-092158d6710e")
 	)
 	(hierarchical_label "PV2"
 		(shape output)
@@ -995,7 +1271,7 @@
 	)
 	(hierarchical_label "B1"
 		(shape bidirectional)
-		(at 113.03 66.04 0)
+		(at 138.43 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1055,7 +1331,7 @@
 	)
 	(hierarchical_label "B2"
 		(shape bidirectional)
-		(at 113.03 55.88 0)
+		(at 138.43 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1079,7 +1355,7 @@
 	)
 	(hierarchical_label "B0"
 		(shape bidirectional)
-		(at 113.03 77.47 0)
+		(at 138.43 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1091,7 +1367,7 @@
 	)
 	(hierarchical_label "B4"
 		(shape bidirectional)
-		(at 113.03 36.83 0)
+		(at 138.43 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1103,7 +1379,7 @@
 	)
 	(hierarchical_label "B3"
 		(shape bidirectional)
-		(at 113.03 45.72 0)
+		(at 138.43 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1188,7 +1464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 102.87 97.028 90)
 			(effects
 				(font
@@ -1197,7 +1473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ohmite.com/assets/docs/APC-1-15.34.pdf?r=false?r=false"
 			(at 102.87 95.25 0)
 			(effects
 				(font
@@ -1207,6 +1483,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 102.87 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "APC0603T100RZ"
 			(at 102.87 95.25 0)
 			(effects
 				(font
@@ -1232,42 +1517,32 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 109.22 101.6 0)
+		(at 107.95 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0df46465-7da8-4ca1-b3d4-1468c93946c2")
-		(property "Reference" "Rsense1"
-			(at 111.76 100.3299 90)
+		(fields_autoplaced yes)
+		(uuid "36c141de-d2aa-40d6-843a-8ae189592aa6")
+		(property "Reference" "RP3"
+			(at 107.95 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "5 m"
-			(at 111.76 105.156 90)
+		(property "Value" "500"
+			(at 107.95 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 107.442 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 101.6 0)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 107.95 47.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1275,8 +1550,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 109.22 101.6 0)
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
+			(at 107.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MCA12060D5000BP500"
+			(at 107.95 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1285,15 +1578,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b6bbe24-1df6-4c8e-97e4-4dff8569eb4e")
+			(uuid "30f56a01-ce08-402f-b88f-967d78683a66")
 		)
 		(pin "2"
-			(uuid "3ac25720-4de2-47af-9ebd-5d3f293b042a")
+			(uuid "b531ec82-9afc-4dce-abb4-63850603780f")
 		)
 		(instances
 			(project "BMS"
 				(path "/973b7d7c-6093-413c-8016-fd400436b275/73be110a-c349-4e47-a9ce-2e24eb68cdcf"
-					(reference "Rsense1")
+					(reference "RP3")
 					(unit 1)
 				)
 			)
@@ -1354,6 +1647,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "KAM15AR71H104KT"
+			(at 82.55 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b24795a6-8d58-4e36-83bf-0f12c9d1f71f")
 		)
@@ -1364,6 +1666,135 @@
 			(project "BMS"
 				(path "/973b7d7c-6093-413c-8016-fd400436b275/73be110a-c349-4e47-a9ce-2e24eb68cdcf"
 					(reference "CP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Local:Y14880R00500B9R")
+		(at 116.84 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b4304be-f008-43c1-bd84-d7fe561c44f4")
+		(property "Reference" "RSense0"
+			(at 120.65 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5 m"
+			(at 120.65 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Y14880R00500B9R"
+			(at 119.38 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/Y14880R00500B9R.pdf"
+			(at 116.84 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Current Sense Resistors - SMD 0.005ohms 0.1% 3w"
+			(at 114.3 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.635"
+			(at 111.76 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CSM36370R0050BST"
+			(at 109.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=71-CSM36370R0050BST"
+			(at 106.68 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 104.14 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "Y14880R00500B9R"
+			(at 101.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "edcff828-08e8-41d3-9996-89448f163268")
+		)
+		(pin "1"
+			(uuid "dafeeefc-b0ff-4a48-b8fb-aa94bba5e2cd")
+		)
+		(pin "2"
+			(uuid "746a2b03-8ee8-4929-9ae7-a63b6608b7d9")
+		)
+		(pin "3"
+			(uuid "a7024fcc-6030-47b6-a4f8-ac3873e37b6a")
+		)
+		(instances
+			(project "BMS"
+				(path "/973b7d7c-6093-413c-8016-fd400436b275/73be110a-c349-4e47-a9ce-2e24eb68cdcf"
+					(reference "RSense0")
 					(unit 1)
 				)
 			)
@@ -1416,6 +1847,15 @@
 			)
 		)
 		(property "Description" "KAM15AR71H104KT"
+			(at 82.55 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KAM15AR71H104KT"
 			(at 82.55 71.12 0)
 			(effects
 				(font
@@ -1560,6 +2000,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "KAM15AR71H104KT"
+			(at 82.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4499e424-61ad-4f94-8f7c-213a539cd250")
 		)
@@ -1570,144 +2019,6 @@
 			(project "BMS"
 				(path "/973b7d7c-6093-413c-8016-fd400436b275/73be110a-c349-4e47-a9ce-2e24eb68cdcf"
 					(reference "CP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 102.87 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6fa7d1e9-02fe-49df-83a4-23a65ba49a5a")
-		(property "Reference" "RP1"
-			(at 101.5999 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1 k"
-			(at 106.426 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 102.87 67.818 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/60026/ptn.pdf"
-			(at 102.87 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "71-PTN0402Y5000BST1"
-			(at 102.87 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aedaa837-5705-4ba2-bef7-10334ec60620")
-		)
-		(pin "2"
-			(uuid "1178643f-e1a3-46c6-a580-812a06c5f31a")
-		)
-		(instances
-			(project "BMS"
-				(path "/973b7d7c-6093-413c-8016-fd400436b275/73be110a-c349-4e47-a9ce-2e24eb68cdcf"
-					(reference "RP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 102.87 77.47 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "71b10543-4f87-45df-8ee6-dc51a07cb6aa")
-		(property "Reference" "RP0"
-			(at 101.5999 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1 k"
-			(at 106.426 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 102.87 79.248 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/60026/ptn.pdf"
-			(at 102.87 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "71-PTN0402Y5000BST1"
-			(at 102.87 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "72eb33f4-3b02-451a-bdc4-b9200385ad21")
-		)
-		(pin "2"
-			(uuid "973edef0-69d4-4f9b-920d-0fe8665ea7a2")
-		)
-		(instances
-			(project "BMS"
-				(path "/973b7d7c-6093-413c-8016-fd400436b275/73be110a-c349-4e47-a9ce-2e24eb68cdcf"
-					(reference "RP0")
 					(unit 1)
 				)
 			)
@@ -1768,6 +2079,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "KAM15AR71H104KT"
+			(at 77.47 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8a3ccfd-0e83-43d8-8518-cfc62030f204")
 		)
@@ -1778,6 +2098,160 @@
 			(project "BMS"
 				(path "/973b7d7c-6093-413c-8016-fd400436b275/73be110a-c349-4e47-a9ce-2e24eb68cdcf"
 					(reference "Ci3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9de9eee2-2d74-4ba2-833b-12dea7ea140e")
+		(property "Reference" "RP4"
+			(at 107.95 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "500"
+			(at 107.95 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 107.95 38.608 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
+			(at 107.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MCA12060D5000BP500"
+			(at 107.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48828a67-151d-45b7-8f5c-5eb3decda3aa")
+		)
+		(pin "2"
+			(uuid "bf71d2b8-7967-450f-ade8-6d91fd09c71d")
+		)
+		(instances
+			(project "BMS"
+				(path "/973b7d7c-6093-413c-8016-fd400436b275/73be110a-c349-4e47-a9ce-2e24eb68cdcf"
+					(reference "RP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a80c981e-a929-43ee-8b83-f1b1b4432092")
+		(property "Reference" "RP1"
+			(at 107.95 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "500"
+			(at 107.95 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 107.95 67.818 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
+			(at 107.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MCA12060D5000BP500"
+			(at 107.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc4c2df1-344c-4253-988a-72fc14a7b64f")
+		)
+		(pin "2"
+			(uuid "7932e6c5-9f19-48c8-b18d-2fe0779a4099")
+		)
+		(instances
+			(project "BMS"
+				(path "/973b7d7c-6093-413c-8016-fd400436b275/73be110a-c349-4e47-a9ce-2e24eb68cdcf"
+					(reference "RP1")
 					(unit 1)
 				)
 			)
@@ -1830,6 +2304,15 @@
 			)
 		)
 		(property "Description" "KAM15AR71H104KT"
+			(at 86.36 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KAM15AR71H104KT"
 			(at 86.36 113.03 0)
 			(effects
 				(font
@@ -1907,6 +2390,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "ERJ-U0XF10R0Y"
+			(at 81.28 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a988e17-3352-47c6-ae21-7998eecfa951")
 		)
@@ -1976,6 +2468,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "71-PTN0402Y5000BST1"
+			(at 102.87 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d0999d0b-cfaf-411a-8215-8578345d94f4")
 		)
@@ -2018,7 +2519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 102.87 110.998 90)
 			(effects
 				(font
@@ -2027,7 +2528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ohmite.com/assets/docs/APC-1-15.34.pdf?r=false?r=false"
 			(at 102.87 109.22 0)
 			(effects
 				(font
@@ -2037,6 +2538,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 102.87 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "APC0603T100RZ"
 			(at 102.87 109.22 0)
 			(effects
 				(font
@@ -2055,213 +2565,6 @@
 			(project "BMS"
 				(path "/973b7d7c-6093-413c-8016-fd400436b275/73be110a-c349-4e47-a9ce-2e24eb68cdcf"
 					(reference "Rni1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 102.87 36.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d4190973-e90a-4916-a2c3-9f55b837f528")
-		(property "Reference" "RP4"
-			(at 101.5999 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1 k"
-			(at 106.426 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 102.87 38.608 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/60026/ptn.pdf"
-			(at 102.87 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "71-PTN0402Y5000BST1"
-			(at 102.87 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6546bb0-4282-4e4a-93d9-0a10e76d401f")
-		)
-		(pin "2"
-			(uuid "51c2181c-256b-48dd-b15c-eba2d611a4c2")
-		)
-		(instances
-			(project "BMS"
-				(path "/973b7d7c-6093-413c-8016-fd400436b275/73be110a-c349-4e47-a9ce-2e24eb68cdcf"
-					(reference "RP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 102.87 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d52a4638-dba2-4c5d-ae51-b7f74d9d1c8e")
-		(property "Reference" "RP2"
-			(at 101.5999 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1 k"
-			(at 106.426 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 102.87 57.658 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/60026/ptn.pdf"
-			(at 102.87 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "71-PTN0402Y5000BST1"
-			(at 102.87 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08a71185-0673-4a1a-818e-959cb1359b75")
-		)
-		(pin "2"
-			(uuid "ae64d4df-2dea-4476-bf42-75219558f34c")
-		)
-		(instances
-			(project "BMS"
-				(path "/973b7d7c-6093-413c-8016-fd400436b275/73be110a-c349-4e47-a9ce-2e24eb68cdcf"
-					(reference "RP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 102.87 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d9b0836c-e2d6-46ea-94ae-41c8da223bb2")
-		(property "Reference" "RP3"
-			(at 101.5999 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1 k"
-			(at 106.426 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 102.87 47.498 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/60026/ptn.pdf"
-			(at 102.87 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "71-PTN0402Y5000BST1"
-			(at 102.87 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6fba5ec-60f9-43ed-a599-fb371aef69f2")
-		)
-		(pin "2"
-			(uuid "dfd7bbc8-7eeb-4306-b410-0e7e42f75264")
-		)
-		(instances
-			(project "BMS"
-				(path "/973b7d7c-6093-413c-8016-fd400436b275/73be110a-c349-4e47-a9ce-2e24eb68cdcf"
-					(reference "RP3")
 					(unit 1)
 				)
 			)
@@ -2321,6 +2624,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "71-PTN0402Y5000BST1"
+			(at 78.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b38f626a-a29e-4dd0-854c-30fe080bc6b1")
 		)
@@ -2331,6 +2643,83 @@
 			(project "BMS"
 				(path "/973b7d7c-6093-413c-8016-fd400436b275/73be110a-c349-4e47-a9ce-2e24eb68cdcf"
 					(reference "Rnni1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f94599fd-efbd-48e5-b8dd-c290be680da2")
+		(property "Reference" "RP0"
+			(at 107.95 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "500"
+			(at 107.95 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 107.95 79.248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
+			(at 107.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MCA12060D5000BP500"
+			(at 107.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07295ff0-44da-4723-bb3d-001e85175b84")
+		)
+		(pin "2"
+			(uuid "79c73269-3dd8-466b-90cd-e4a792fff984")
+		)
+		(instances
+			(project "BMS"
+				(path "/973b7d7c-6093-413c-8016-fd400436b275/73be110a-c349-4e47-a9ce-2e24eb68cdcf"
+					(reference "RP0")
 					(unit 1)
 				)
 			)
@@ -2383,6 +2772,15 @@
 			)
 		)
 		(property "Description" "KAM15AR71H104KT"
+			(at 82.55 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KAM15AR71H104KT"
 			(at 82.55 40.64 0)
 			(effects
 				(font
@@ -2461,6 +2859,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "KAM15AR71H104KT"
+			(at 90.17 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ae04c9cb-9415-4f70-abc7-b537cc3737eb")
 		)
@@ -2471,6 +2878,83 @@
 			(project "BMS"
 				(path "/973b7d7c-6093-413c-8016-fd400436b275/73be110a-c349-4e47-a9ce-2e24eb68cdcf"
 					(reference "Ci1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe4bc5c5-e7ce-4a3d-8fb9-a7665968d754")
+		(property "Reference" "RP2"
+			(at 107.95 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "500"
+			(at 107.95 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 107.95 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
+			(at 107.95 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MCA12060D5000BP500"
+			(at 107.95 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "806622b0-795a-4c9a-a154-b6f22d97ec3f")
+		)
+		(pin "2"
+			(uuid "d7dd83a4-a131-49d6-8ea9-2672c66d4370")
+		)
+		(instances
+			(project "BMS"
+				(path "/973b7d7c-6093-413c-8016-fd400436b275/73be110a-c349-4e47-a9ce-2e24eb68cdcf"
+					(reference "RP2")
 					(unit 1)
 				)
 			)

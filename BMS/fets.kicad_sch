@@ -901,6 +901,12 @@
 		(uuid "c31e3811-f66a-4450-8939-2b7a55e88300")
 	)
 	(junction
+		(at 115.57 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbd96a66-72d9-43dc-8ebc-a9250295807f")
+	)
+	(junction
 		(at 115.57 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1013,6 +1019,16 @@
 			(type default)
 		)
 		(uuid "3cc01705-bc1f-497a-8d03-8ec3136e8fdd")
+	)
+	(wire
+		(pts
+			(xy 154.94 87.63) (xy 115.57 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cfc5f90-4209-4011-b4e4-5119ed8862aa")
 	)
 	(wire
 		(pts
@@ -1263,6 +1279,16 @@
 			(type default)
 		)
 		(uuid "b024fc15-67ba-41b2-9fc5-cebbdd7de96a")
+	)
+	(wire
+		(pts
+			(xy 115.57 87.63) (xy 115.57 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b26de4be-1d63-44e8-b442-a68eff78ef62")
 	)
 	(wire
 		(pts
@@ -1584,7 +1610,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 106.68 61.468 90)
 			(effects
 				(font
@@ -1593,7 +1619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110033.pdf"
 			(at 106.68 59.69 0)
 			(effects
 				(font
@@ -1603,6 +1629,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 106.68 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "560112110033"
 			(at 106.68 59.69 0)
 			(effects
 				(font
@@ -2078,7 +2113,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 104.14 119.888 90)
 			(effects
 				(font
@@ -2087,7 +2122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110033.pdf"
 			(at 104.14 118.11 0)
 			(effects
 				(font
@@ -2097,6 +2132,15 @@
 			)
 		)
 		(property "Description" "RCV12061M00FKEAAT"
+			(at 104.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "560112110033 "
 			(at 104.14 118.11 0)
 			(effects
 				(font
@@ -2146,7 +2190,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 101.6 97.028 90)
 			(effects
 				(font
@@ -2155,7 +2199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110033.pdf"
 			(at 101.6 95.25 0)
 			(effects
 				(font
@@ -2165,6 +2209,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 101.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "560112110033"
 			(at 101.6 95.25 0)
 			(effects
 				(font
@@ -2235,6 +2288,15 @@
 			)
 		)
 		(property "Description" "CRS2512QJW-102ELF"
+			(at 140.97 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "71-PTN0402Y5000BST1"
 			(at 140.97 81.28 0)
 			(effects
 				(font
@@ -2329,6 +2391,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "BAS516,135"
+			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "58de4c7e-d568-4117-bb91-ff649cf48ade")
 		)
@@ -2388,6 +2459,15 @@
 			)
 		)
 		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 130.81 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BAV70,215"
 			(at 130.81 144.78 0)
 			(effects
 				(font

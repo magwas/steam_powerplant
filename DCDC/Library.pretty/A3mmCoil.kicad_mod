@@ -1,25 +1,139 @@
-(footprint "A3mmCoil" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.1)))
-    (tstamp 44727ed6-d47b-4196-bb47-7f864bfda49f)
-  )
-  (fp_text value "A3mmCoil" (at 0 1 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 8a252817-4943-411d-9675-42f196e003e7)
-  )
-  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp ab17ed3e-f4fe-4e29-8aa3-33d8fe0e4f9a)
-  )
-  (fp_circle (center 0 0) (end 10.16 -2.54)
-    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp acd4433a-a5b3-49d9-958a-81f6df50caeb))
-  (pad "1" thru_hole circle (at -5 0) (size 4 4) (drill 2) (layers "*.Cu" "*.Mask") (tstamp 2da3fdb7-fdfd-47bf-a4c7-a5b299512403))
-  (pad "2" thru_hole circle (at 5 0) (size 4 4) (drill 2) (layers "*.Cu" "*.Mask") (tstamp 9ef3ff17-4b25-4b64-83fd-304e371b2912))
-  (model "${KIPRJMOD}/Library.pretty/coil.stp"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "A3mmCoil"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "44727ed6-d47b-4196-bb47-7f864bfda49f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "A3mmCoil"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8a252817-4943-411d-9675-42f196e003e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b134acc6-e225-4926-86e9-fff93ae5c7d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f99d5b80-c176-41b1-9589-9405451828f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "accde896-893d-4ec7-a869-e2e3b24e2641")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 9.5 -3.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "fa63621d-200e-422f-bb6e-cf4ba74bc818")
+	)
+	(fp_circle
+		(center -4.9 0)
+		(end -3.3 -1.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "d677be11-b318-4e11-910d-e495f3bd19c7")
+	)
+	(fp_circle
+		(center 5.1 0)
+		(end 7.8 -0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ad43ea39-2002-470e-98bb-94618d2eac2e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ab17ed3e-f4fe-4e29-8aa3-33d8fe0e4f9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -5 0)
+		(size 4 4)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2da3fdb7-fdfd-47bf-a4c7-a5b299512403")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 4 4)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9ef3ff17-4b25-4b64-83fd-304e371b2912")
+	)
+	(model "${KIPRJMOD}/Library.pretty/coil.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

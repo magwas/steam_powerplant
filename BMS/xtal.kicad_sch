@@ -141,174 +141,6 @@
 				)
 			)
 		)
-		(symbol "Device:Crystal"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Crystal"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Two pin crystal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crystal_0_1"
-				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -1.27) (xy 1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -406,60 +238,6 @@
 			)
 		)
 	)
-	(junction
-		(at 90.17 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31507b38-252d-4421-b6ee-e9f75addbb8f")
-	)
-	(junction
-		(at 116.84 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5dc9a3c-405a-4171-b248-bd6f700e66c7")
-	)
-	(junction
-		(at 90.17 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cdb81726-d082-4521-9a45-aea8bdf2a2d0")
-	)
-	(junction
-		(at 116.84 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9a94fcb-2675-429c-99cb-f8dc43d55d61")
-	)
-	(wire
-		(pts
-			(xy 90.17 58.42) (xy 96.52 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23fa4e1f-30ae-4f18-8b87-c3b3de8b52be")
-	)
-	(wire
-		(pts
-			(xy 116.84 58.42) (xy 134.62 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "290d458e-9a53-476e-980e-ab4e0c6656d4")
-	)
-	(wire
-		(pts
-			(xy 104.14 58.42) (xy 116.84 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e123c47-3205-40d3-a23c-3b7c8b8d8cd9")
-	)
 	(wire
 		(pts
 			(xy 115.57 54.61) (xy 134.62 54.61)
@@ -472,23 +250,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 66.04) (xy 90.17 73.66)
+			(xy 90.17 54.61) (xy 90.17 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4a661310-189a-4af7-bc8b-de7d9198b5a0")
-	)
-	(wire
-		(pts
-			(xy 90.17 54.61) (xy 90.17 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f2f2401-b290-49a0-a713-6538bee89dc5")
 	)
 	(wire
 		(pts
@@ -499,58 +267,6 @@
 			(type default)
 		)
 		(uuid "54dc5def-2b9b-400a-b958-c943dd4764f3")
-	)
-	(wire
-		(pts
-			(xy 116.84 66.04) (xy 134.62 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "801fdcb5-ffba-4bc3-a751-85cdef0ad1d3")
-	)
-	(wire
-		(pts
-			(xy 90.17 58.42) (xy 90.17 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fd4771c-eea3-459e-91d9-cb99ba543055")
-	)
-	(wire
-		(pts
-			(xy 90.17 66.04) (xy 96.52 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae0a28c4-cf39-4558-8f13-e99ea2ef8467")
-	)
-	(wire
-		(pts
-			(xy 104.14 66.04) (xy 116.84 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c99895c9-d39a-4bb5-9392-ed9f071e888d")
-	)
-	(hierarchical_label "XTAL2"
-		(shape bidirectional)
-		(at 134.62 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "15e53846-7b45-47a8-891d-10596230b673")
 	)
 	(hierarchical_label "RESET"
 		(shape bidirectional)
@@ -563,86 +279,6 @@
 			(justify left)
 		)
 		(uuid "345d0921-7556-4f64-87de-78cec8bc07a5")
-	)
-	(hierarchical_label "XTAL1"
-		(shape bidirectional)
-		(at 134.62 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4af84f59-72e7-4722-9682-0af68a9ca222")
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 100.33 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33b9400c-ed44-4ae6-8783-68a9296b522c")
-		(property "Reference" "CXTAL2"
-			(at 100.33 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12.5p"
-			(at 100.33 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 65.0748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 100.33 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dd7af20c-35db-491f-86c6-e02da3b16905")
-		)
-		(pin "1"
-			(uuid "ae62c85a-caf6-47b1-85b1-297dde7cd3e2")
-		)
-		(instances
-			(project "BMS"
-				(path "/973b7d7c-6093-413c-8016-fd400436b275/5f5569ac-f80f-435f-b2c5-91454434b907"
-					(reference "CXTAL2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -670,7 +306,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 115.57 53.6448 0)
 			(effects
 				(font
@@ -679,7 +315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://hu.mouser.com/datasheet/2/40/AutoMLCCKAM-3216307.pdf"
 			(at 111.76 54.61 0)
 			(effects
 				(font
@@ -689,6 +325,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 111.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KAM15AR71H104KT"
 			(at 111.76 54.61 0)
 			(effects
 				(font
@@ -713,78 +358,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal")
-		(at 116.84 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4534cbce-9d8e-4ec4-b760-93cfad27f0f6")
-		(property "Reference" "XTAL1"
-			(at 120.65 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "32768 Hz"
-			(at 120.65 63.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Two pin crystal"
-			(at 116.84 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a3cec4d-0d2f-4df6-9e46-d6f75671dba9")
-		)
-		(pin "2"
-			(uuid "a2a8a0da-c61f-4c18-95a8-2b9c4549bf68")
-		)
-		(instances
-			(project "BMS"
-				(path "/973b7d7c-6093-413c-8016-fd400436b275/5f5569ac-f80f-435f-b2c5-91454434b907"
-					(reference "XTAL1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 90.17 73.66 0)
+		(at 90.17 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -793,7 +368,7 @@
 		(fields_autoplaced yes)
 		(uuid "54a2de6c-995e-44db-9601-9b4a0100d957")
 		(property "Reference" "#PWR03"
-			(at 90.17 80.01 0)
+			(at 90.17 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -802,7 +377,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 78.74 0)
+			(at 90.17 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -810,7 +385,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 73.66 0)
+			(at 90.17 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -819,7 +394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 73.66 0)
+			(at 90.17 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -828,7 +403,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 73.66 0)
+			(at 90.17 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -843,74 +418,6 @@
 			(project "BMS"
 				(path "/973b7d7c-6093-413c-8016-fd400436b275/5f5569ac-f80f-435f-b2c5-91454434b907"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 100.33 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8efd87c4-4b4c-4911-814a-0a5241a85301")
-		(property "Reference" "CXTAL1"
-			(at 100.33 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12.5p"
-			(at 100.33 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 57.4548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 100.33 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7660e739-202b-4df5-89f9-9006f63ac505")
-		)
-		(pin "1"
-			(uuid "18b297d7-c0ce-419e-84c2-7ce861f19108")
-		)
-		(instances
-			(project "BMS"
-				(path "/973b7d7c-6093-413c-8016-fd400436b275/5f5569ac-f80f-435f-b2c5-91454434b907"
-					(reference "CXTAL1")
 					(unit 1)
 				)
 			)

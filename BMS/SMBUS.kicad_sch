@@ -126,117 +126,116 @@
 				)
 			)
 		)
-		(symbol "Diode:1N6857"
-			(pin_numbers hide)
+		(symbol "Local:CDBWL521-HF"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 0.762)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 2.54 0)
+				(at 12.7 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "1N6857"
-				(at 0 -2.54 0)
+			(property "Value" "CDBWL521-HF"
+				(at 12.7 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-				(at 0 -4.445 0)
+			(property "Footprint" "CDBWL521HF"
+				(at 12.7 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.microsemi.com/document-portal/doc_download/8865-lds-0040-datasheet"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.comchiptech.com/admin/files/product/QW-G1149%20CDBWL521-HF%20RevA.pdf"
+				(at 12.7 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Description" "20V 150mA Schottky diode, DO-35"
-				(at 0 0 0)
+			(property "Description" "Schottky Diodes & Rectifiers DIODE SCHOTTKY 30Volt 100mA"
+				(at 12.7 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
+			(property "Height" "0.2"
+				(at 12.7 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*DO?35*"
-				(at 0 0 0)
+			(property "Mouser Part Number" ""
+				(at 12.7 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(symbol "1N6857_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
+			(property "Mouser Price/Stock" ""
+				(at 12.7 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify left)
+					(hide yes)
 				)
 			)
-			(symbol "1N6857_1_1"
+			(property "Manufacturer_Name" "Comchip Technology"
+				(at 12.7 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CDBWL521-HF"
+				(at 12.7 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "CDBWL521-HF_0_0"
 				(pin passive line
-					(at -3.81 0 0)
+					(at 2.54 0 0)
 					(length 2.54)
-					(name "K"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -252,9 +251,9 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 17.78 0 180)
 					(length 2.54)
-					(name "A"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -267,6 +266,80 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "CDBWL521-HF_0_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 0) (xy 15.24 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 6.604 -2.54) (xy 6.604 -1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 8.636 2.54) (xy 8.636 1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 12.7 2.54) (xy 12.7 -2.54) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
 					)
 				)
 			)
@@ -375,28 +448,28 @@
 		(uuid "02ddc852-4e31-4d62-9fdf-39b1b3bf9c4a")
 	)
 	(junction
-		(at 171.45 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06880d27-cb8c-4d13-9a49-559935ec13b4")
-	)
-	(junction
-		(at 158.75 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e700bec-f6db-49f5-bf07-0301ecf3528e")
-	)
-	(junction
 		(at 142.24 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "115af4d1-c985-432d-b1ce-23aa97d0c291")
 	)
 	(junction
-		(at 158.75 69.85)
+		(at 168.91 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1d967fd5-d7fa-4c12-9277-190ce5018f63")
+		(uuid "1a0f89d9-27b1-496e-b9a1-7b9fdb62d819")
+	)
+	(junction
+		(at 156.21 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f4fe587-0007-404c-b089-0265fc234c2c")
+	)
+	(junction
+		(at 156.21 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ac76c85-ce39-4d45-8ef5-abc5ed1ffce5")
 	)
 	(junction
 		(at 133.35 36.83)
@@ -412,17 +485,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 36.83) (xy 171.45 36.83)
+			(xy 156.21 68.58) (xy 156.21 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "026c069c-396f-4eda-9147-fcb5a255d3b4")
+		(uuid "0a5f17bc-4962-447e-9c08-7edbf3da6103")
 	)
 	(wire
 		(pts
-			(xy 171.45 36.83) (xy 175.26 36.83)
+			(xy 133.35 36.83) (xy 168.91 36.83)
 		)
 		(stroke
 			(width 0)
@@ -442,33 +515,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 50.8) (xy 158.75 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21870288-76be-435c-97a1-81f241639c21")
-	)
-	(wire
-		(pts
-			(xy 142.24 69.85) (xy 158.75 69.85)
+			(xy 142.24 69.85) (xy 156.21 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "21bc773b-223f-4c93-8641-5f3ef64f5e48")
-	)
-	(wire
-		(pts
-			(xy 171.45 63.5) (xy 171.45 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "246fdbf6-bd18-46a5-97b0-e71f08fee55b")
 	)
 	(wire
 		(pts
@@ -479,6 +532,16 @@
 			(type default)
 		)
 		(uuid "2a572ec3-5041-4fb5-964b-8cf6b535e653")
+	)
+	(wire
+		(pts
+			(xy 168.91 68.58) (xy 168.91 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d044463-0661-4374-9564-c0871a56b802")
 	)
 	(wire
 		(pts
@@ -502,6 +565,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 36.83) (xy 168.91 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f836dd4-cbf4-4596-8705-3a8167cb91c5")
+	)
+	(wire
+		(pts
 			(xy 133.35 69.85) (xy 138.43 69.85)
 		)
 		(stroke
@@ -522,33 +595,23 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 55.88) (xy 171.45 36.83)
+			(xy 156.21 50.8) (xy 156.21 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77f69d8f-726f-44b3-aab5-8614e696dea9")
+		(uuid "78e4e45c-5163-483f-87b3-077060bda289")
 	)
 	(wire
 		(pts
-			(xy 158.75 63.5) (xy 158.75 69.85)
+			(xy 168.91 36.83) (xy 175.26 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8101a09b-a022-43c4-8aa0-1ae0eb08cfda")
-	)
-	(wire
-		(pts
-			(xy 158.75 50.8) (xy 158.75 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89480a39-b32f-479b-ad34-1332b361987e")
+		(uuid "86accd53-44b4-45d7-b1ee-5eed1d8573d4")
 	)
 	(wire
 		(pts
@@ -572,23 +635,33 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 69.85) (xy 171.45 69.85)
+			(xy 156.21 50.8) (xy 175.26 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e28a5058-00a7-45ae-bff0-0bb47eb1cac7")
+		(uuid "cc29feaf-1e81-429f-b21e-436eeb71b53b")
 	)
 	(wire
 		(pts
-			(xy 158.75 50.8) (xy 175.26 50.8)
+			(xy 142.24 50.8) (xy 156.21 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e6616b98-c4d9-4c4d-9ae3-4924fd9a0e2f")
+	)
+	(wire
+		(pts
+			(xy 156.21 69.85) (xy 168.91 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e85c26c5-8392-42c8-9d19-61f8cf9c30c2")
 	)
 	(hierarchical_label "SCL"
 		(shape bidirectional)
@@ -666,7 +739,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
 			(at 140.462 58.42 90)
 			(effects
 				(font
@@ -675,7 +748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20054/rcve3.pdf"
 			(at 142.24 58.42 0)
 			(effects
 				(font
@@ -685,6 +758,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 142.24 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RCV20102M20JNEF"
 			(at 142.24 58.42 0)
 			(effects
 				(font
@@ -703,76 +785,6 @@
 			(project "BMS"
 				(path "/973b7d7c-6093-413c-8016-fd400436b275/e87ce819-307a-427b-aa75-19e7e457413a"
 					(reference "RPU1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N6857")
-		(at 171.45 59.69 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6afee699-a292-4e96-95b7-90e179e35695")
-		(property "Reference" "D4"
-			(at 173.99 58.1024 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N6857"
-			(at 173.99 60.6424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 167.005 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.microsemi.com/document-portal/doc_download/8865-lds-0040-datasheet"
-			(at 171.45 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "20V 150mA Schottky diode, DO-35"
-			(at 171.45 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d4ce6e56-e6cb-4840-b163-3ebd3bff7c4d")
-		)
-		(pin "1"
-			(uuid "ab079b01-57fe-4d9c-a9dc-fdc6944edbec")
-		)
-		(instances
-			(project "BMS"
-				(path "/973b7d7c-6093-413c-8016-fd400436b275/e87ce819-307a-427b-aa75-19e7e457413a"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -845,17 +857,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N6857")
-		(at 158.75 59.69 270)
+		(lib_id "Local:CDBWL521-HF")
+		(at 156.21 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "997701a5-0a5b-4cb8-b32e-749189d494bb")
-		(property "Reference" "D3"
-			(at 161.29 58.1024 90)
+		(uuid "9bbffaf6-66a3-4ba3-9364-fca6d63263bb")
+		(property "Reference" "D5"
+			(at 160.02 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -863,8 +875,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N6857"
-			(at 161.29 60.6424 90)
+		(property "Value" "CDBQR0130L-HF"
+			(at 160.02 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -872,38 +884,214 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 154.305 59.69 0)
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+			(at 160.02 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.microsemi.com/document-portal/doc_download/8865-lds-0040-datasheet"
-			(at 158.75 59.69 0)
+		(property "Datasheet" "https://hu.mouser.com/datasheet/2/80/CDBQR0130L_HF_RevD-2489305.pdf"
+			(at 157.48 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "20V 150mA Schottky diode, DO-35"
-			(at 158.75 59.69 0)
+		(property "Description" "Schottky Diodes & Rectifiers DIODE SCHOTTKY 30Volt 100mA"
+			(at 154.94 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.2"
+			(at 152.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 149.86 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 147.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Comchip Technology"
+			(at 144.78 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CDBQR0130L-HF"
+			(at 142.24 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "8cefeba4-850f-4954-9e2e-4903396cc06a")
+			(uuid "c74180b4-0ae9-4fc9-b898-e808608955e9")
 		)
 		(pin "1"
-			(uuid "1501f30b-cb91-429e-bff7-d75c5664b1fe")
+			(uuid "c7d4a11c-979c-4635-b05b-c05de2f9fe5e")
+		)
+		(instances
+			(project "BMS"
+				(path "/973b7d7c-6093-413c-8016-fd400436b275/e87ce819-307a-427b-aa75-19e7e457413a"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Local:CDBWL521-HF")
+		(at 168.91 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdded52d-6cf6-4a2a-b431-6c7b809968ff")
+		(property "Reference" "D3"
+			(at 172.72 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CDBQR0130L-HF"
+			(at 172.72 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+			(at 172.72 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://hu.mouser.com/datasheet/2/80/CDBQR0130L_HF_RevD-2489305.pdf"
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky Diodes & Rectifiers DIODE SCHOTTKY 30Volt 100mA"
+			(at 167.64 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.2"
+			(at 165.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 162.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 160.02 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Comchip Technology"
+			(at 157.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CDBQR0130L-HF"
+			(at 154.94 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5bd56c23-f484-475d-a986-6fa99f913c77")
+		)
+		(pin "1"
+			(uuid "6e06cfaa-ea0c-4fbd-8d54-ce5ba723be8d")
 		)
 		(instances
 			(project "BMS"
@@ -942,7 +1130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
 			(at 131.572 58.42 90)
 			(effects
 				(font
@@ -951,7 +1139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20054/rcve3.pdf"
 			(at 133.35 58.42 0)
 			(effects
 				(font
@@ -961,6 +1149,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 133.35 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RCV20102M20JNEF"
 			(at 133.35 58.42 0)
 			(effects
 				(font

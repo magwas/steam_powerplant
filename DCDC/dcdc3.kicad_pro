@@ -58,23 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|110455000|136000000|e771d710-4974-4b7c-80f6-b03ba7c42a0c|9fa3fc18-71de-40d4-a496-867ae38b55a6",
-        "clearance|146000000|89545000|e771d710-4974-4b7c-80f6-b03ba7c42a0c|9fa3fc18-71de-40d4-a496-867ae38b55a6",
-        "clearance|70835000|136000000|9fa3fc18-71de-40d4-a496-867ae38b55a6|e771d710-4974-4b7c-80f6-b03ba7c42a0c",
-        "pth_inside_courtyard|115000000|74525000|be29ef4e-f178-48ba-8cf2-fadcb670ae24|22e42138-1d58-4c2f-b826-d25a08d57660",
-        "pth_inside_courtyard|115000000|76550000|7da50a4c-6e7b-4123-a9b5-e52b160f5049|22e42138-1d58-4c2f-b826-d25a08d57660",
-        "pth_inside_courtyard|116431891|75956891|8cde83de-b686-4247-8375-a9b1877313c0|22e42138-1d58-4c2f-b826-d25a08d57660",
-        "pth_inside_courtyard|117025000|74525000|c820d024-e3e3-47b7-a076-40e309ced608|22e42138-1d58-4c2f-b826-d25a08d57660",
-        "pth_inside_courtyard|123450000|105000000|7da50a4c-6e7b-4123-a9b5-e52b160f5049|34d156f5-b321-40db-86e8-93c62a4bf235",
-        "pth_inside_courtyard|124043109|106431891|8cde83de-b686-4247-8375-a9b1877313c0|34d156f5-b321-40db-86e8-93c62a4bf235",
-        "pth_inside_courtyard|125475000|105000000|be29ef4e-f178-48ba-8cf2-fadcb670ae24|34d156f5-b321-40db-86e8-93c62a4bf235",
-        "pth_inside_courtyard|125475000|107025000|c820d024-e3e3-47b7-a076-40e309ced608|34d156f5-b321-40db-86e8-93c62a4bf235",
-        "pth_inside_courtyard|83450000|105000000|7da50a4c-6e7b-4123-a9b5-e52b160f5049|38d3e3fd-e316-463d-a01a-82ec87c392db",
-        "pth_inside_courtyard|84043109|106431891|8cde83de-b686-4247-8375-a9b1877313c0|38d3e3fd-e316-463d-a01a-82ec87c392db",
-        "pth_inside_courtyard|85475000|105000000|be29ef4e-f178-48ba-8cf2-fadcb670ae24|38d3e3fd-e316-463d-a01a-82ec87c392db",
-        "pth_inside_courtyard|85475000|107025000|c820d024-e3e3-47b7-a076-40e309ced608|38d3e3fd-e316-463d-a01a-82ec87c392db"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -603,7 +587,7 @@
       "pos_files": "",
       "specctra_dsn": "",
       "step": "dcdc3.step",
-      "svg": "",
+      "svg": "svg/",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -646,7 +630,7 @@
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,

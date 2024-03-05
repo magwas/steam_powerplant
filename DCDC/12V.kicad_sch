@@ -3491,7 +3491,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 64.262 41.91 90)
 			(effects
 				(font
@@ -3518,7 +3518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0201FR-7D68K1L"
+		(property "Manufacturer_Part_Number" "ERA-3VEB6812V"
 			(at 66.04 41.91 0)
 			(effects
 				(font
@@ -3909,7 +3909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM188R61E104KA01D"
+		(property "Manufacturer_Part_Number" "C0603C104J1RACAUTO"
 			(at 173.99 81.28 0)
 			(effects
 				(font

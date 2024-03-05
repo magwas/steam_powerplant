@@ -1,0 +1,260 @@
+(footprint "TKH45P500RFETR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TKH45P500RFE-TR-1")
+	(tags "Resistor")
+	(property "Reference" "R**"
+		(at 0 0.71 0)
+		(layer "F.SilkS")
+		(uuid "2f04946f-f70c-4867-b878-36df4ad14343")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TKH45P500RFETR"
+		(at 0 0.71 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2c1b16bd-b4d3-4cfb-9956-44147fa43ca2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d20105b6-5237-4a5f-b2bf-932bb5b785a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba87600a-61f9-477e-83f3-cee1dcebc41e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6693832-9e5f-4cdd-bfd5-9373d781c56d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.15 2.5)
+		(end -4.15 6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10d32fc1-57bf-42d5-b673-0a9d95c8318b")
+	)
+	(fp_line
+		(start -2.54 8.1)
+		(end -2.54 8.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "77686b82-1d27-4040-a054-af933914e479")
+	)
+	(fp_line
+		(start -2.54 8.2)
+		(end -2.54 8.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0194ba48-025a-40cc-b64a-73ec42c8e395")
+	)
+	(fp_line
+		(start -1.245 6)
+		(end 1.245 6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7042dfc5-e932-497b-a0f7-63636ad19a45")
+	)
+	(fp_line
+		(start 4.15 6)
+		(end 4.15 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb2317c0-b2bc-46ff-bcbd-343c57472341")
+	)
+	(fp_arc
+		(start -2.54 8.1)
+		(mid -2.49 8.15)
+		(end -2.54 8.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d08c97a3-4867-4ba5-bcb2-e7f84bf05374")
+	)
+	(fp_arc
+		(start -2.54 8.2)
+		(mid -2.59 8.15)
+		(end -2.54 8.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a097e282-8512-4e2b-813a-5279908d2a2c")
+	)
+	(fp_line
+		(start -5.15 -7.29)
+		(end 5.15 -7.29)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fbc6c715-ac10-44c8-a417-f17dd63950f5")
+	)
+	(fp_line
+		(start -5.15 8.71)
+		(end -5.15 -7.29)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a02721ec-e558-40b2-a683-503f0d1a4bce")
+	)
+	(fp_line
+		(start 5.15 -7.29)
+		(end 5.15 8.71)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "959544fb-b720-4ab0-9b65-e76fb2eac408")
+	)
+	(fp_line
+		(start 5.15 8.71)
+		(end -5.15 8.71)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "858f83e0-1ea1-4f38-8e00-78960df3cbd6")
+	)
+	(fp_line
+		(start -4.15 -6)
+		(end 4.15 -6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "debacb38-d11e-41fb-9087-0059bb1dc866")
+	)
+	(fp_line
+		(start -4.15 6)
+		(end -4.15 -6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ffc84d57-cef0-465c-be15-523c696ad8cf")
+	)
+	(fp_line
+		(start 4.15 -6)
+		(end 4.15 6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "153ce9fd-1475-425b-a256-dcb08d3a3d2d")
+	)
+	(fp_line
+		(start 4.15 6)
+		(end -4.15 6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "897e859b-3236-44d4-b9e8-6fd0882f0850")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.71 0)
+		(layer "F.Fab")
+		(uuid "9de34188-c2d7-49a2-b5d2-4f3e58e8aac9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.54 6.21)
+		(size 2 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "095a00d8-c1fc-4adf-9f5f-6785d0c6cad6")
+	)
+	(pad "2" smd rect
+		(at 2.54 6.21)
+		(size 2 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ee1df9cd-e38f-467d-b57d-d6d7b327bafa")
+	)
+	(pad "3" smd rect
+		(at 0 -2.19)
+		(size 8 8.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9ee539ee-f593-4140-b237-84a7836c6949")
+	)
+	(model "TKH45P500RFE-TR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

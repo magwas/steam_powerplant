@@ -844,6 +844,15 @@
 				)
 			)
 		)
+		(property "Manufacturer_Part_Number" "214650-1633"
+			(at 67.31 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c27d647f-e617-4033-8add-5dc7d71b4a84")
 		)
@@ -920,6 +929,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "214650-1633"
+			(at 67.31 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1000,6 +1018,15 @@
 				)
 			)
 		)
+		(property "Manufacturer_Part_Number" "214650-1633"
+			(at 67.31 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ca08d1d7-4679-4c88-bbfa-473363127a54")
 		)
@@ -1043,7 +1070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 61.722 91.44 90)
 			(effects
 				(font
@@ -1052,7 +1079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 63.5 91.44 0)
 			(effects
 				(font
@@ -1062,6 +1089,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 63.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW040210K0FKEDC"
 			(at 63.5 91.44 0)
 			(effects
 				(font
@@ -1113,7 +1149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 72.0852 104.14 0)
 			(effects
 				(font
@@ -1122,7 +1158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://hu.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 71.12 100.33 0)
 			(effects
 				(font
@@ -1132,6 +1168,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 71.12 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KGM21AR71H105JU"
 			(at 71.12 100.33 0)
 			(effects
 				(font
@@ -1216,6 +1261,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "214650-1633"
+			(at 67.31 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
