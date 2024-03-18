@@ -3500,7 +3500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "D=15mm,N=10,L=20mm,d=2mm"
+		(property "Manufacturer_Part_Number" "D=21mm,N=7,L=7.9mm,d=1.12mm"
 			(at 185.42 74.93 0)
 			(effects
 				(font
